@@ -1,0 +1,139 @@
+/* de Ryck Hadrien*/
+/*Louis Bertrand*/
+
+@font-face{
+    font-family: "MontHeavy";
+    src: url("MontDemo-Heavy.otf")
+}
+@font-face{
+    font-family: "MontLight";
+    src: url("MontDemo-ExtraLight.otf")
+}
+
+.allFebDiv{
+    margin: auto;
+    width: 81.25%;
+    height: 100%;
+    padding: 8% 4.75% 72px;
+}
+
+.FebDiv{
+    display: inline-flex;
+    color: white;
+    background-color: #3a70e0;
+    border-radius: 5px;
+}
+
+.div2{
+    width: 50%;
+    margin: 0;
+    padding: 3.13vw 0px;
+}
+.text{
+    padding: 0px 2.6vw 0px 5.73vw;
+}
+
+.news{
+    display: inline-block;
+    margin: 0;
+    padding: 2px 3px;
+    background-color: #f46252;
+    border-radius: 2px;
+    font-family: "MontHeavy";
+    font-size: 12px;
+}
+.large{
+    margin: 0;
+    font-family: "MontHeavy";
+    font-size: 4.06vw;
+    line-height: 1.15em;
+    font-weight: 700;
+}
+.light{
+    font-family: "MontLight";
+    line-height: 1.5;
+
+    padding: 20px 25px 30px 0px;
+}
+.survey{
+    display: inline-block;
+    background-color: white;
+    font-family: "MontLight";
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #7f7f7f;
+    border-radius: 50px;
+    padding: 20px 35px;
+}
+
+.img{
+    height: 100%;
+}
+.img img{
+    float:right;
+    vertical-align: bottom;
+    padding-top: 8%;
+    width: 96%;
+}
+
+@media only screen and (max-width: 1661px){
+    .allFebDiv{
+        margin: auto;
+        width: 90.5%;
+        height: 100%;
+        padding: 8% 4.75% 72px;
+    }
+
+    .img img{
+        float:right;
+        padding-top: 4%;
+        width: 85%;
+    }
+
+    .survey{
+        display: inline-block;
+        background-color: white;
+        font-family: "MontLight";
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: #7f7f7f;
+        border-radius: 50px;
+        padding: 10px 35px;
+
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1367px) {
+    .allFebDiv{
+        margin: auto;
+        width: 93.6%;
+        height: 100%;
+        padding: 8% 0 30px;
+    }
+
+    .img img{
+        float:right;
+        padding-top: 4%;
+        width: 85%;
+    }
+
+    .survey{
+        display: inline-block;
+        background-color: white;
+        font-family: "MontLight";
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: #7f7f7f;
+        border-radius: 50px;
+        padding: 10px 35px;
+
+        margin: 0;
+    }
+}
+
+.survey:hover{
+    background-color: #696969;
+    transition: background-color 0.3s linear;
+    color: white;
+}

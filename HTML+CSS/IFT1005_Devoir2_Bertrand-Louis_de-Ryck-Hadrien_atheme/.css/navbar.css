@@ -1,0 +1,215 @@
+/* de Ryck Hadrien*/
+/*Louis Bertrand*/
+
+html body{
+    height: 100%;
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: sans-serif;
+}
+
+a{
+    color: #7f7f7f;
+    vertical-align: middle;
+    text-decoration: none;
+}
+a:hover{
+    color: #3a70e0;
+    transition: color 0.1s linear;
+}
+
+em{
+    color: #0f41a4;
+}
+
+.navBar{
+    z-index: 10;
+    list-style-type: none;
+    position: fixed;
+    height: 67px;
+    width: 100%;
+    padding-top: 23px;
+    background-color: white;
+
+    box-shadow: 25px 25px 45px -22px rgb(0 0 0 / 40%);
+}
+.navBarLeft{
+    padding-left: 2.5%;
+    height: 100%;
+    display: inline;
+    float: left;
+}
+.navBarRight{
+    padding-right: 2.5%;
+    height: 100%;
+    display: inline;
+    float: right;
+}
+#linkHomePage{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.navBar img{
+    padding-right: 20px;
+    width: 13.5vw;
+}
+
+.navBarRight a{
+    font-size: 14px;
+    color: black;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.navBarLeft p{
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 10px;
+
+    font-size: 1vw;
+    font-weight: 500;
+    color: #7f7f7f;
+}
+
+.navBarRight li{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.navBarRight p{
+    margin: 0;
+}
+
+#login{
+    padding: 11px 26px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    border-radius: 100px;
+}
+#login:hover{
+    color: white;
+    background-color: #3a70e0;
+    transition: color 0.15s linear;
+    transition: background-color 0.15s linear;
+}
+#login:hover em{
+    color: white;
+    transition: color 0.1s linear;
+}
+#try{
+    padding: 12px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    color: white;
+    background-color: #3a70e0;
+    border-radius: 100px;
+}
+#try:hover{
+    color: #3a70e0;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3a70e0;
+
+    transition: color 0.15s linear;
+    transition: background-color 0.15s linear;
+}
+
+.listeTheme{
+    letter-spacing: normal;
+    float: right;
+    display: inline;
+}
+.listeTheme p{
+    padding-bottom: 40px;
+}
+.listeTheme:hover .listeTheme-ref{
+    display: block;
+}
+.listeTheme-ref{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 6px 18px rgb(0 0 0 / 4%);
+    overflow: visible;
+    border-radius: 10px;
+
+    padding: 20px 40px;
+
+    font-size: 16px
+}
+.listeTheme-ref a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+    padding: 15px 0px;
+    padding-right: 55px;
+}
+
+@media only screen and (max-width: 1661px) and (min-width: 1025px) {
+    .navBar{
+        z-index: 10;
+        list-style-type: none;
+        position: fixed;
+        height: 54px;
+        width: 100%;
+        padding-top: 15px;
+        background-color: white;
+    
+        box-shadow: 25px 25px 45px -22px rgb(0 0 0 / 40%);
+    }
+
+    .navBarLeft p{
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 28px;
+        padding-right: 10px;
+
+        font-size: 1.1vw;
+        font-weight: 500;
+        color: #7f7f7f;
+    }
+
+    .listeTheme p{
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1367px) {
+
+    .navBar{
+        padding-top: 10px;
+    }
+    .navBarLeft{
+        padding-top: 10px;
+        padding-left: 2.5%;
+        height: 100%;
+        display: inline;
+        float: left;
+    }
+
+    .navBar img{
+        padding-right: 5px;
+        width: 11.6vw;
+    }
+
+    .navBarLeft p{
+        margin: 0;
+        padding-top: 2px;
+        padding-left: 0px;
+        padding-right: 15px;
+
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: #7f7f7f;
+    }
+}

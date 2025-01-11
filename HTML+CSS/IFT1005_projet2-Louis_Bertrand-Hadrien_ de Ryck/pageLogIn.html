@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--de Ryck Hadrien-->
+<!--Louis Bertrand-->
+<html lang="fr">
+	<head>
+		<title>BLogIn</title>
+        <link rel="icon" type="image/svg" href="image/tardis.svg" />
+        <link rel="stylesheet" href="dossier_css/navBar.css" />
+        <link rel="stylesheet" href="dossier_css/login.css" />
+        <link rel="stylesheet" href="dossier_css/CV.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="navBar">
+            <div class="navRight">
+                <p><a href="pageLogIn.html">Modification</a></p>
+            </div>
+            <div class="navMiddle">
+                <p><a href="CVWho.html">Le Docteur</a></p>
+                <img src="image/tardis.svg" alt="tardis">
+                <p><a href="page1Autre.html">Ses Compagnons</a></p>
+            </div>
+        </div>
+        <div class="angePleureur" id="angePleureur">
+        </div>
+        <div class="angePleureur normalLogin">
+            <div class="parallax">
+                <div class="divLogin">
+                    <div>
+                        <form class="login" id="login" action= "https://www.w3schools.com/action_page.php"
+                            method= "post" enctype = "multipart/form-data">
+                            <h2 class="affichageCouleurNoir">Login</h2>
+                            <p class="form"><Strong>Connecte Toi pour Modifier ton Compte</Strong></p>
+                            <p class="form"><label for="nomUtilisateur">Nom d'Utilisateur </label><br>
+                                <input type="text" id="nomUtilisateur" name="nomUtilisateur" required class="text" /></p>
+                            <p class="form"><label for="motDePasse">Mots de Passe </label><br>
+                                <input type="password" id="motDePasse" name="motDePasse" required /></p>
+                            <p><input type="checkbox" id="seSouvenir" name="seSouvenir">
+                                <label for="seSouvenir">Se Souvenir de Moi </label></p>
+                                <button id="ange" onclick="angeAffichage('oui')" type="submit" value="Log In" class="submit"> Log In</button><br>
+                            <p id="specialafter">Mots de Passe oublié? Mensonge, tu es le Docteur.</p>
+                            <p id="specialafter2"><strong>Pas de Compte?</strong> Mensonge, sinon comment tu as Crée cette page?</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<script src="code.js"></script>
+    </body>
+</html>

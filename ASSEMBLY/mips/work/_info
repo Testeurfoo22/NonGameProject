@@ -1,0 +1,742 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eadder
+Z0 w1671489610
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1264
+Z5 dC:/Users/hadri/Desktop/mips
+Z6 8C:/Users/hadri/Desktop/mips/filesInit/adder.vhd
+Z7 FC:/Users/hadri/Desktop/mips/filesInit/adder.vhd
+l0
+L4 1
+VW:m;:::IB@?=Afe@MaFI72
+!s100 DYiPGOcJ3:cL7?I<1MQJg0
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1671823673
+!i10b 1
+Z10 !s108 1671823673.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/adder.vhd|
+Z12 !s107 C:/Users/hadri/Desktop/mips/filesInit/adder.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 W:m;:::IB@?=Afe@MaFI72
+!i122 1264
+l10
+L9 4
+V;]1?K^;7`Ja6?=X]CO>2E0
+!s100 n?n0;?00eRg62V@4A]>PI0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ealu
+Z15 w1671619188
+R1
+R2
+Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R3
+R4
+!i122 1265
+R5
+Z17 8C:/Users/hadri/Desktop/mips/filesInit/alu.vhd
+Z18 FC:/Users/hadri/Desktop/mips/filesInit/alu.vhd
+l0
+L5 1
+VG5N<Tn3Od;<eBD_YImiVg1
+!s100 dBd9[^RkRd5iJ5IZ9<1HZ0
+R8
+32
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/alu.vhd|
+Z20 !s107 C:/Users/hadri/Desktop/mips/filesInit/alu.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R2
+R16
+R3
+R4
+DEx4 work 3 alu 0 22 G5N<Tn3Od;<eBD_YImiVg1
+!i122 1265
+l13
+L11 27
+VKog]ZE[dgRA2D4]?]SCJ;2
+!s100 ;`oflQoJXNSg5kc8`c_]^2
+R8
+32
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Ealudec
+Z21 w1671616808
+R3
+R4
+!i122 1266
+R5
+Z22 8C:/Users/hadri/Desktop/mips/filesInit/aludec.vhd
+Z23 FC:/Users/hadri/Desktop/mips/filesInit/aludec.vhd
+l0
+L3 1
+Vmd[a`XzI2KWM[]ehE`W9H1
+!s100 :J`b>_le3j9N5i2=MLX9M0
+R8
+32
+Z24 !s110 1671823674
+!i10b 1
+R10
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/aludec.vhd|
+Z26 !s107 C:/Users/hadri/Desktop/mips/filesInit/aludec.vhd|
+!i113 1
+R13
+R14
+Abehave
+R3
+R4
+DEx4 work 6 aludec 0 22 md[a`XzI2KWM[]ehE`W9H1
+!i122 1266
+l10
+L9 11
+VbcS0]BLfi@V3zE@Ue]?ml1
+!s100 0=K_@HDbTlz;YjNedKb0;0
+R8
+32
+R24
+!i10b 1
+R10
+R25
+R26
+!i113 1
+R13
+R14
+Econtroller
+Z27 w1671797847
+R3
+R4
+!i122 1267
+R5
+Z28 8C:/Users/hadri/Desktop/mips/filesInit/controller.vhd
+Z29 FC:/Users/hadri/Desktop/mips/filesInit/controller.vhd
+l0
+L2 1
+VikTH6zMcASl=ZDf9ocRmd0
+!s100 08_MXHoW4fo_b_4z3GXBj3
+R8
+32
+R24
+!i10b 1
+Z30 !s108 1671823674.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/controller.vhd|
+Z32 !s107 C:/Users/hadri/Desktop/mips/filesInit/controller.vhd|
+!i113 1
+R13
+R14
+Astruct
+R3
+R4
+DEx4 work 10 controller 0 22 ikTH6zMcASl=ZDf9ocRmd0
+!i122 1267
+l26
+L11 20
+V145dg@n@DJHmbheAAMNOU3
+!s100 L:=2hRClaJe]_9X;dc3[H1
+R8
+32
+R24
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
+Edatapath
+Z33 w1671803111
+R1
+R3
+R4
+!i122 1268
+R5
+Z34 8C:/Users/hadri/Desktop/mips/filesInit/datapath.vhd
+Z35 FC:/Users/hadri/Desktop/mips/filesInit/datapath.vhd
+l0
+L4 1
+Vf1nB;DLncFg=cKBbIh`:X0
+!s100 ]aJnQohI@Bfz_b9c]LG4e1
+R8
+32
+R24
+!i10b 1
+R30
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/datapath.vhd|
+Z37 !s107 C:/Users/hadri/Desktop/mips/filesInit/datapath.vhd|
+!i113 1
+R13
+R14
+Astruct
+R1
+R3
+R4
+DEx4 work 8 datapath 0 22 f1nB;DLncFg=cKBbIh`:X0
+!i122 1268
+l64
+L18 66
+V2N7:8;<3O8^FRQJ=JUA2g2
+!s100 GgNMK?bWzPJbn:5]NjZ]90
+R8
+32
+R24
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R13
+R14
+Edmem
+R0
+R1
+R2
+R3
+R4
+!i122 1269
+R5
+Z38 8C:/Users/hadri/Desktop/mips/filesInit/dmem.vhd
+Z39 FC:/Users/hadri/Desktop/mips/filesInit/dmem.vhd
+l0
+L5 1
+VThL>TH83I_MLkAW<j[Cc?1
+!s100 aXWHlI?G4GoC2UbGW@EdX3
+R8
+32
+Z40 !s110 1671823675
+!i10b 1
+R30
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/dmem.vhd|
+Z42 !s107 C:/Users/hadri/Desktop/mips/filesInit/dmem.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 4 dmem 0 22 ThL>TH83I_MLkAW<j[Cc?1
+!i122 1269
+l12
+L11 14
+VKbB3In_SmYzSzKP3oeElW1
+!s100 @0;OP8gbZmO6i@_Ck?MXW3
+R8
+32
+R40
+!i10b 1
+R30
+R41
+R42
+!i113 1
+R13
+R14
+Eflopr
+R0
+R1
+R3
+R4
+!i122 1270
+R5
+Z43 8C:/Users/hadri/Desktop/mips/filesInit/flopr.vhd
+Z44 FC:/Users/hadri/Desktop/mips/filesInit/flopr.vhd
+l0
+L4 1
+VTMR]]nm4^^4a]MC[PPZ1l1
+!s100 VOSUX_RJM>JQi>3mk1[PS3
+R8
+32
+R40
+!i10b 1
+Z45 !s108 1671823675.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/flopr.vhd|
+Z47 !s107 C:/Users/hadri/Desktop/mips/filesInit/flopr.vhd|
+!i113 1
+R13
+R14
+Aasynchronous
+R1
+R3
+R4
+DEx4 work 5 flopr 0 22 TMR]]nm4^^4a]MC[PPZ1l1
+!i122 1270
+l12
+L11 9
+VlbAWDPB_nYD8XXS@ioFDY3
+!s100 34N`PZ[I?zi6SnmA;fLDL1
+R8
+32
+R40
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R13
+R14
+Eimem
+Z48 w1671823665
+R1
+R2
+R3
+R4
+!i122 1271
+R5
+Z49 8C:/Users/hadri/Desktop/mips/filesInit/imem.vhd
+Z50 FC:/Users/hadri/Desktop/mips/filesInit/imem.vhd
+l0
+L6 1
+VX260VSRHJh1cA6F[:MdXS3
+!s100 26W^X`CBn`_Zn<]b^[`K^0
+R8
+32
+R40
+!i10b 1
+R45
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/imem.vhd|
+Z52 !s107 C:/Users/hadri/Desktop/mips/filesInit/imem.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 4 imem 0 22 X260VSRHJh1cA6F[:MdXS3
+!i122 1271
+l12
+L11 39
+VY<MIF>el<<]2[gG3zmLKG2
+!s100 _WdbSS]K[<VXa=0gKQRa51
+R8
+32
+R40
+!i10b 1
+R45
+R51
+R52
+!i113 1
+R13
+R14
+Emaindec
+Z53 w1671802561
+R3
+R4
+!i122 1272
+R5
+Z54 8C:/Users/hadri/Desktop/mips/filesInit/maindec.vhd
+Z55 FC:/Users/hadri/Desktop/mips/filesInit/maindec.vhd
+l0
+L3 1
+VNjko4imNSU8N`Konh1T1@0
+!s100 nof;K_0<cHI:kY=EBC``40
+R8
+32
+Z56 !s110 1671823676
+!i10b 1
+R45
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/maindec.vhd|
+Z58 !s107 C:/Users/hadri/Desktop/mips/filesInit/maindec.vhd|
+!i113 1
+R13
+R14
+Abehave
+R3
+R4
+DEx4 work 7 maindec 0 22 Njko4imNSU8N`Konh1T1@0
+!i122 1272
+l12
+L10 33
+Vl_T?JFUS?6fXIY8422je`1
+!s100 4T>TM6]0<hUJ<ieUQ77cC0
+R8
+32
+R56
+!i10b 1
+R45
+R57
+R58
+!i113 1
+R13
+R14
+Emips
+R0
+R1
+R2
+R3
+R4
+!i122 1273
+R5
+Z59 8C:/Users/hadri/Desktop/mips/filesInit/mips.vhd
+Z60 FC:/Users/hadri/Desktop/mips/filesInit/mips.vhd
+l0
+L4 1
+V:InhJ`cfaG`O9Ak]DdP2N1
+!s100 fk`IJok5`IojnGa;URES]1
+R8
+32
+R56
+!i10b 1
+Z61 !s108 1671823676.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/mips.vhd|
+Z63 !s107 C:/Users/hadri/Desktop/mips/filesInit/mips.vhd|
+!i113 1
+R13
+R14
+Atest
+R1
+R2
+R3
+R4
+DEx4 work 4 mips 0 22 :InhJ`cfaG`O9Ak]DdP2N1
+!i122 1273
+l29
+L10 25
+VP1n=E;oMkL?NTcBb@`1OS1
+!s100 CoXdHah5LVHE@CA>;e7<L0
+R8
+32
+R56
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R13
+R14
+Emux2
+R0
+R3
+R4
+!i122 1274
+R5
+Z64 8C:/Users/hadri/Desktop/mips/filesInit/mux2.vhd
+Z65 FC:/Users/hadri/Desktop/mips/filesInit/mux2.vhd
+l0
+L3 1
+Vi@?e?375NKRTMGE_QzfFL3
+!s100 W`1_EWOXA2>al=G63X]0H3
+R8
+32
+R56
+!i10b 1
+R61
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/mux2.vhd|
+Z67 !s107 C:/Users/hadri/Desktop/mips/filesInit/mux2.vhd|
+!i113 1
+R13
+R14
+Abehave
+R3
+R4
+DEx4 work 4 mux2 0 22 i@?e?375NKRTMGE_QzfFL3
+!i122 1274
+l11
+L10 4
+VSXDU]hoZW50d4BeN9=f6g1
+!s100 HaCOl>E;`a_g0CnXmg46G2
+R8
+32
+R56
+!i10b 1
+R61
+R66
+R67
+!i113 1
+R13
+R14
+Emux4
+Z68 w1671650339
+R3
+R4
+!i122 1280
+R5
+Z69 8C:/Users/hadri/Desktop/mips/filesInit/mux4.vhd
+Z70 FC:/Users/hadri/Desktop/mips/filesInit/mux4.vhd
+l0
+L3 1
+VV6HJ54;]i0;^ba_:N^UZ]0
+!s100 05ghZml@2KYfg]4fgbdlL3
+R8
+32
+Z71 !s110 1671823678
+!i10b 1
+Z72 !s108 1671823678.000000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/mux4.vhd|
+Z74 !s107 C:/Users/hadri/Desktop/mips/filesInit/mux4.vhd|
+!i113 1
+R13
+R14
+Abehave
+R3
+R4
+Z75 DEx4 work 4 mux4 0 22 V6HJ54;]i0;^ba_:N^UZ]0
+!i122 1280
+l11
+Z76 L10 12
+Z77 VA]46_mCTbLR14AWnhzID^1
+Z78 !s100 23VQ21B1d7ZLX3d]3`]hg0
+R8
+32
+R71
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R13
+R14
+Eproc_mips
+Z79 w1671650262
+R3
+R4
+!i122 1275
+R5
+Z80 8C:/Users/hadri/Desktop/mips/filesInit/proc_mips.vhd
+Z81 FC:/Users/hadri/Desktop/mips/filesInit/proc_mips.vhd
+l0
+L3 1
+Vlc9jA?1f@h<;@EmKP9K840
+!s100 SD6BURLi7oRPSdNAV31Uz2
+R8
+32
+Z82 !s110 1671823677
+!i10b 1
+R61
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/proc_mips.vhd|
+Z84 !s107 C:/Users/hadri/Desktop/mips/filesInit/proc_mips.vhd|
+!i113 1
+R13
+R14
+Astruct
+R3
+R4
+DEx4 work 9 proc_mips 0 22 lc9jA?1f@h<;@EmKP9K840
+!i122 1275
+l38
+L12 32
+VXioADQXa6ihSekzZiTmZd3
+!s100 FWFAMT[jTjf<XmP]]z;b63
+R8
+32
+R82
+!i10b 1
+R61
+R83
+R84
+!i113 1
+R13
+R14
+Eregfile
+R0
+R1
+R2
+R3
+R4
+!i122 1276
+R5
+Z85 8C:/Users/hadri/Desktop/mips/filesInit/regfile.vhd
+Z86 FC:/Users/hadri/Desktop/mips/filesInit/regfile.vhd
+l0
+L4 1
+Vc4hIYe3SGbKfLHVn623CU3
+!s100 :fI6jMki]o18Q<n;b:`ZD3
+R8
+32
+R82
+!i10b 1
+Z87 !s108 1671823677.000000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/regfile.vhd|
+Z89 !s107 C:/Users/hadri/Desktop/mips/filesInit/regfile.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 7 regfile 0 22 c4hIYe3SGbKfLHVn623CU3
+!i122 1276
+l15
+L12 21
+V2Re^?dUAC=AN43<Ihmn3B0
+!s100 Rk[c=1266=P7kSfIB^z8B1
+R8
+32
+R82
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R13
+R14
+Esignext
+R0
+R3
+R4
+!i122 1277
+R5
+Z90 8C:/Users/hadri/Desktop/mips/filesInit/signext.vhd
+Z91 FC:/Users/hadri/Desktop/mips/filesInit/signext.vhd
+l0
+L3 1
+VQVBj5kWkMDSechO1iMX`h3
+!s100 MXY8H<@X<ljZML9k;5J7@3
+R8
+32
+R82
+!i10b 1
+R87
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/signext.vhd|
+Z93 !s107 C:/Users/hadri/Desktop/mips/filesInit/signext.vhd|
+!i113 1
+R13
+R14
+Abehave
+R3
+R4
+DEx4 work 7 signext 0 22 QVBj5kWkMDSechO1iMX`h3
+!i122 1277
+l9
+L8 4
+VeTbQ5f0l@dhD:h=:?8FP_0
+!s100 [QRG2i1Ea[do@Y2A@:<b:1
+R8
+32
+R82
+!i10b 1
+R87
+R92
+R93
+!i113 1
+R13
+R14
+Esl2
+R0
+R3
+R4
+!i122 1278
+R5
+Z94 8C:/Users/hadri/Desktop/mips/filesInit/sl2.vhd
+Z95 FC:/Users/hadri/Desktop/mips/filesInit/sl2.vhd
+l0
+L3 1
+VRnl<Z[Gf_cX8_U4^i`f[@0
+!s100 4R1FG`ik:5HddiX7_:mMV2
+R8
+32
+R71
+!i10b 1
+R87
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/sl2.vhd|
+Z97 !s107 C:/Users/hadri/Desktop/mips/filesInit/sl2.vhd|
+!i113 1
+R13
+R14
+Abehave
+R3
+R4
+DEx4 work 3 sl2 0 22 Rnl<Z[Gf_cX8_U4^i`f[@0
+!i122 1278
+l9
+L8 4
+Vg<>36Tj<`P6hN`f>PRRPd2
+!s100 Gd5PPM1J9i4SXh?@Jf0z43
+R8
+32
+R71
+!i10b 1
+R87
+R96
+R97
+!i113 1
+R13
+R14
+Etestbench
+Z98 w1671823668
+R1
+R2
+R3
+R4
+!i122 1279
+R5
+Z99 8C:/Users/hadri/Desktop/mips/filesInit/testbench.vhd
+Z100 FC:/Users/hadri/Desktop/mips/filesInit/testbench.vhd
+l0
+L4 1
+VjR^_Vle;@@1_9>ZeB5zOo3
+!s100 9EH;D0`Ao?0?_^4G62c]]3
+R8
+32
+R71
+!i10b 1
+R72
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hadri/Desktop/mips/filesInit/testbench.vhd|
+Z102 !s107 C:/Users/hadri/Desktop/mips/filesInit/testbench.vhd|
+!i113 1
+R13
+R14
+Atest
+R1
+R2
+R3
+R4
+DEx4 work 9 testbench 0 22 jR^_Vle;@@1_9>ZeB5zOo3
+!i122 1279
+l15
+L7 61
+VVRICbiT^Y`6>CGCXeVOz?2
+!s100 DOXBRI?jVZCEkCUS59WHo2
+R8
+32
+R71
+!i10b 1
+R72
+R101
+R102
+!i113 1
+R13
+R14

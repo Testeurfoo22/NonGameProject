@@ -1,0 +1,83 @@
+/* de Ryck Hadrien*/
+/*Louis Bertrand*/
+
+.sectionWidth{
+width: 85%;
+padding-top: 100px;
+justify-content: center;
+text-align: left;
+margin: auto;
+}
+
+.whyTitle{
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.greySection{
+  color: #A9A9A9;
+}
+
+.whyP{
+  font-size: 1vw;
+  width: 68%;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+}
+
+.whyChoseFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.whybox{
+  width: 25%;
+  background-color: white;
+  height: auto;
+  box-shadow: 0px 0px 20px -20px;
+}
+
+.whyBoxNum{
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.whyBoxP{
+  font-size: 1.1vw;
+  max-width: 80%;
+  margin: auto;
+  color: #A9A9A9;
+  padding-bottom: 4vw;
+}
+
+.orangeBorder{
+  -webkit-text-stroke: 1px orange;
+}
+
+.orangeText{
+  color: orange;
+  font-weight: bold;
+}
+
+.blueBorder{
+  -webkit-text-stroke: 1px blue;
+}
+
+.blueText{
+  color: blue;
+  font-weight: bold;
+}
+
+.greenBorder{
+  -webkit-text-stroke: 1px green;
+}
+
+.greenText{
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,497 @@
+/*<!--de Ryck Hadrien-->
+<!--Louis Bertrand-->*/
+
+@font-face{
+    font-family: "Kiwi_Maru";
+    src: url("../Kiwi_Maru/KiwiMaru-Medium.ttf")
+}
+
+.informationGen{
+    width: 250px;
+    height: 1000px;
+
+    background-color: rgb(193, 193, 193);
+
+    border-bottom-right-radius: 50px;
+
+    margin: 0;
+    margin-bottom: 500px;
+    padding: 0;
+
+    display: inline-block;
+
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.imageProfil{
+    width: 350px;
+    height: 350px;
+
+    background-color: gray;
+
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 40px 20px;
+    border-top-right-radius: 20px 40px;
+
+    overflow:hidden;
+
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+img{
+    width: 100%;
+    height: 150%;
+
+    object-fit: cover;
+
+    overflow: hidden;
+}
+
+.blog{
+    width: calc(100% - 265px);
+
+    display: inline-block;
+    vertical-align: top;
+
+    position: absolute;
+}
+
+.citation{
+    width: 900px;
+    height: 200px;
+
+    margin-top: 100px;
+    margin-left: 200px;
+
+    transform: skew(-20deg);
+
+    background-color: whitesmoke;
+
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.citation pre{
+    margin-left: 6%;
+    margin-top: 50px;
+
+    font-family: "kiwi_Maru";
+    font-size: 16px;
+}
+
+.preCitation{
+    width: 100%;
+}
+
+.imageBlogLeft{
+    width: 250px;
+    height: 325px;
+
+    margin-left: 100px;
+    margin-top: 100px;
+
+    border-bottom-right-radius: 200px 500px;
+    border-top-left-radius: 200px 500px;
+
+    display: inline-block;
+    vertical-align: top;
+
+    overflow:hidden;
+
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.textBlogRight{
+    width: 855px;
+    height: 250px;
+
+    margin-top: 100px;
+    margin-left: 200px;
+
+    transform: skew(-20deg);
+
+    background-color: whitesmoke;
+
+    display: inline-block;
+
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.imageBlogRight{
+    width: 250px;
+    height: 325px;
+
+    margin-left: 200px;
+
+    border-bottom-right-radius: 200px 500px;
+    border-top-left-radius: 200px 500px;
+
+    display: inline-block;
+
+    overflow:hidden;
+
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.textBlogLeft{
+    width: 855px;
+    height: 250px;
+
+    margin-left: 100px;
+
+    transform: skew(-20deg);
+
+    background-color: whitesmoke;
+
+    display: inline-block;
+    vertical-align: bottom;
+
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+button{
+    background-color: transparent;
+    border: 0px solid;
+
+    width: auto;
+}
+
+.leftEm{
+    margin-left: 30px;
+    margin-top: 60%;
+
+    color: gray;
+}
+.rightEm{
+    float: right;
+
+    margin-right: 30px;
+    margin-top: 60%;
+
+    color: gray;
+}
+
+.info1 .leftEm{
+    margin-left: 30px;
+    margin-top: calc(500px - 250px);
+    margin-bottom: calc(500px - 250px);
+
+    color: gray;
+}
+.info1 .rightEm{
+    float: right;
+
+    margin-right: 0;
+    margin-top: calc(500px - 250px);
+    margin-bottom: calc(500px - 250px);
+
+    color: gray;
+}
+.info1 .close{
+    float: right;
+    padding: 0;
+    margin-right: 9.05px;
+    margin-top: 9.05px;
+}
+
+.info2 .leftEm{
+    margin-left: 30px;
+    margin-top: calc(500px - 250px);
+    margin-bottom: calc(500px - 250px);
+
+    color: gray;
+}
+.info2 .rightEm{
+    float: right;
+
+    margin-right: 0;
+    margin-top: calc(500px - 250px);
+    margin-bottom: calc(500px - 250px);
+
+    color: gray;
+}
+.info2 .close{
+    float: right;
+    padding: 0;
+    margin-right: 9.05px;
+    margin-top: 9.05px;
+}
+
+.info3 .leftEm{
+    margin-left: 30px;
+    margin-top: calc(500px - 250px);
+    margin-bottom: calc(500px - 250px);
+
+    color: gray;
+}
+.info3 .rightEm{
+    float: right;
+
+    margin-right: 0;
+    margin-top: calc(500px - 250px);
+    margin-bottom: calc(500px - 250px);
+
+    color: gray;
+}
+.info3 .close{
+    float: right;
+    padding: 0;
+    margin-right: 9.05px;
+    margin-top: 9.05px;
+}
+
+#img1, #img2, #img3{
+
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.info1, .info2, .info3 {
+    position: fixed;
+
+    width: 1000px;
+    height: 500px;
+
+    background-color: whitesmoke;
+
+    margin: 100px calc(50% - 700px );
+
+    border: 5px solid black;
+
+}
+
+.classe1{
+    position: absolute;
+
+    margin: 0;
+    padding: 0;
+
+    height: 450px;
+    width: 790px;
+}
+
+@media only screen and (max-width: 1710px) {
+
+    .imageBlogLeft{
+        width: 20%;
+        height: 325px;
+
+        margin-left: 50px;
+        margin-top: 100px;
+    
+        border-bottom-right-radius: 200px 500px;
+        border-top-left-radius: 200px 500px;
+    
+        display: inline-block;
+        vertical-align: top;
+    
+        overflow:hidden;
+
+        border-top: 5px solid black;
+        border-left: 5px solid black;
+    }
+    
+    .textBlogRight{
+        width: 60%;
+        height: 250px;
+    
+        margin-top: 100px;
+        margin-left: 50px;
+    
+        transform: skew(-20deg);
+    
+        background-color: whitesmoke;
+    
+        display: inline-block;
+
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+    }
+    
+    .imageBlogRight{
+        width: 20%;
+        height: 325px;
+    
+        margin-left: 50px;
+    
+        border-bottom-right-radius: 200px 500px;
+        border-top-left-radius: 200px 500px;
+    
+        display: inline-block;
+    
+        overflow:hidden;
+
+        border-top: 5px solid black;
+        border-left: 5px solid black;
+    }
+    
+    .textBlogLeft{
+        width: 60%;
+        height: 250px;
+    
+        margin-left: 75px;
+    
+        transform: skew(-20deg);
+    
+        background-color: whitesmoke;
+    
+        display: inline-block;
+        vertical-align: bottom;
+
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+    }
+
+    .info1, .info2, .info3 {
+        position: fixed;
+    
+        width: 700px;
+        height: 500px;
+    
+        background-color: white;
+    
+        margin: 25px calc(50% - 500px );
+    }
+
+    .classe1{
+        position: absolute;
+    
+        margin: 0;
+        padding: 0;
+    
+        height: 450px;
+        width: 520px;
+    }
+}
+
+@media only screen and (max-width: 1424px) {
+
+    .citation{
+        width: 70%;
+        height: 200px;
+    
+        margin-top: 100px;
+        margin-left: 200px;
+    
+        transform: skew(-20deg);
+    
+        background-color: whitesmoke;
+
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+        border-top: 5px solid black;
+        border-left: 5px solid black;
+    }
+
+    .leftEm{
+        margin-left: 30px;
+        margin-top: 150px;
+    
+        color: gray;
+    }
+    .rightEm{
+        float: right;
+
+        margin-right: 30px;
+        margin-top: 150px;
+    
+        color: gray;
+    }
+
+    p{
+        font-size: 1.2vw;
+    }
+    h1{
+        font-size: 2vw;
+    }
+
+    .citation pre{
+        margin-left: 4%;
+        font-size: 1.3vw;
+    }
+}
+
+h1{
+    width: auto;
+    padding-left: 30px;
+
+    text-decoration: underline;
+}
+p{
+    width: auto;
+    padding: 0px 10px;
+}
+
+.link{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    color: rgb(42, 38, 38);
+}
+
+.informationGen p{
+    margin: 0;
+}
+
+.informationGen br{
+    margin-left: 20px;
+}
+
+.informationGen h2{
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display:inline-block;
+}
+
+.informationGen a{
+    color: black;
+}
+
+.page{
+    margin: auto;
+    padding: 50px 0px;
+
+    display: table;
+}
+
+.page a{
+    color: gainsboro;
+    text-decoration: none;
+}
+.page p{
+    display: inline;
+
+    font-size: 30px;
+}
+
+.text{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 20px;
+
+    width: calc(90% - 110px);
+    height: 450px;
+
+    font-size: 18px;
+}
+
+.text .classe2{
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+
+    height: 450px;
+    width: auto;
+}

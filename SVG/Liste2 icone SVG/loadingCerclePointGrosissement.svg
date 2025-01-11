@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1"
+	xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+    width="100"
+    height="100"
+    viewBox="0 0 100 100" 
+    xml:space="preserve">
+
+    <rect width="100" height="100" />
+
+    <g transform="matrix(1 0 0 -1 50 50)">
+        <circle cx="0" cy="40" r="6" transform="rotate(0)" fill="white">
+            <animate id="balle1" attributeName="r" values="6;8;6" dur="0.5s" begin="0s;balle1Stop.end" />
+            <animate id="balle1Stop" dur="0.65s" begin="balle1.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-30)" fill="white">
+            <animate id="balle2" attributeName="r" values="6;8;6" dur="0.5s" begin="0.1;balle2Stop.end" />
+            <animate id="balle2Stop" dur="0.65s" begin="balle2.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-60)" fill="white">
+            <animate id="balle3" attributeName="r" values="6;8;6" dur="0.5s" begin="0.2;balle3Stop.end" />
+            <animate id="balle3Stop" dur="0.65s" begin="balle3.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-90)" fill="white">
+            <animate id="balle4" attributeName="r" values="6;8;6" dur="0.5s" begin="0.3;balle4Stop.end" />
+            <animate id="balle4Stop" dur="0.65s" begin="balle4.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-120)" fill="white">
+            <animate id="balle5" attributeName="r" values="6;8;6" dur="0.5s" begin="0.4;balle5Stop.end" />
+            <animate id="balle5Stop" dur="0.65s" begin="balle5.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-150)" fill="white">
+            <animate id="balle6" attributeName="r" values="6;8;6" dur="0.5s" begin="0.5;balle6Stop.end" />
+            <animate id="balle6Stop" dur="0.65s" begin="balle6.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-180)" fill="white">
+            <animate id="balle7" attributeName="r" values="6;8;6" dur="0.5s" begin="0.6;balle7Stop.end" />
+            <animate id="balle7Stop" dur="0.65s" begin="balle7.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-210)" fill="white">
+            <animate id="balle8" attributeName="r" values="6;8;6" dur="0.5s" begin="0.7;balle8Stop.end" />
+            <animate id="balle8Stop" dur="0.65s" begin="balle8.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-240)" fill="white">
+            <animate id="balle9" attributeName="r" values="6;8;6" dur="0.5s" begin="0.8;balle9Stop.end" />
+            <animate id="balle9Stop" dur="0.65s" begin="balle9.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-270)" fill="white">
+            <animate id="balle10" attributeName="r" values="6;8;6" dur="0.5s" begin="0.9;balle10Stop.end" />
+            <animate id="balle10Stop" dur="0.65s" begin="balle10.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-300)" fill="white">
+            <animate id="balle11" attributeName="r" values="6;8;6" dur="0.5s" begin="1.0;balle11Stop.end" />
+            <animate id="balle11Stop" dur="0.65s" begin="balle11.end"/>
+        </circle>
+        <circle cx="0" cy="40" r="6" transform="rotate(-330)" fill="white">
+            <animate id="balle12" attributeName="r" values="6;8;6" dur="0.5s" begin="1;balle12Stop.end" />
+            <animate id="balle12Stop" dur="0.65s" begin="balle12.end"/>
+        </circle>
+
+    </g>
+
+</svg>

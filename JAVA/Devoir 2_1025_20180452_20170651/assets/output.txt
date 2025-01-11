@@ -1,0 +1,204 @@
+----------
+Sens du tri: asc
+Liste originale: [a]
+Noeuds du debut vers la fin: a
+Noeuds de la fin vers le debut: a
+----------
+----------
+Sens du tri: desc
+Liste originale: [b]
+Noeuds du debut vers la fin: b
+Noeuds de la fin vers le debut: b
+----------
+----------
+Sens du tri: asc
+Liste originale: [0.0]
+Noeuds du debut vers la fin: 0.0
+Noeuds de la fin vers le debut: 0.0
+----------
+----------
+Sens du tri: desc
+Liste originale: [0.0]
+Noeuds du debut vers la fin: 0.0
+Noeuds de la fin vers le debut: 0.0
+----------
+----------
+Sens du tri: asc
+Liste originale: [0]
+Noeuds du debut vers la fin: 0
+Noeuds de la fin vers le debut: 0
+----------
+----------
+Sens du tri: desc
+Liste originale: [0]
+Noeuds du debut vers la fin: 0
+Noeuds de la fin vers le debut: 0
+----------
+----------
+Sens du tri: asc
+Liste originale: [2,1]
+Noeuds du debut vers la fin: 1->2
+Noeuds de la fin vers le debut: 2->1
+----------
+----------
+Sens du tri: desc
+Liste originale: [1,2]
+Noeuds du debut vers la fin: 2->1
+Noeuds de la fin vers le debut: 1->2
+----------
+----------
+Sens du tri: asc
+Liste originale: [b,a]
+Noeuds du debut vers la fin: a->b
+Noeuds de la fin vers le debut: b->a
+----------
+----------
+Sens du tri: desc
+Liste originale: [a,b]
+Noeuds du debut vers la fin: b->a
+Noeuds de la fin vers le debut: a->b
+----------
+----------
+Sens du tri: asc
+Liste originale: [b,t,c]
+Noeuds du debut vers la fin: b->c->t
+Noeuds de la fin vers le debut: t->c->b
+----------
+----------
+Sens du tri: desc
+Liste originale: [b,t,c]
+Noeuds du debut vers la fin: t->c->b
+Noeuds de la fin vers le debut: b->c->t
+----------
+----------
+Sens du tri: asc
+Liste originale: [2,1,3]
+Noeuds du debut vers la fin: 1->2->3
+Noeuds de la fin vers le debut: 3->2->1
+----------
+----------
+Sens du tri: desc
+Liste originale: [1,3,2]
+Noeuds du debut vers la fin: 3->2->1
+Noeuds de la fin vers le debut: 1->2->3
+----------
+----------
+Sens du tri: asc
+Liste originale: [4,3,6,1,7]
+Noeuds du debut vers la fin: 1->3->4->6->7
+Noeuds de la fin vers le debut: 7->6->4->3->1
+----------
+----------
+Sens du tri: desc
+Liste originale: [4,3,6,1,7]
+Noeuds du debut vers la fin: 7->6->4->3->1
+Noeuds de la fin vers le debut: 1->3->4->6->7
+----------
+----------
+Sens du tri: asc
+Liste originale: [1,0.1,1.5]
+Noeuds du debut vers la fin: 0.1->1->1.5
+Noeuds de la fin vers le debut: 1.5->1->0.1
+----------
+----------
+Sens du tri: desc
+Liste originale: [1,0.1,1.5]
+Noeuds du debut vers la fin: 1.5->1->0.1
+Noeuds de la fin vers le debut: 0.1->1->1.5
+----------
+----------
+Sens du tri: asc
+Liste originale: [a,g,t,y,v,f,g,h]
+Noeuds du debut vers la fin: a->f->g->g->h->t->v->y
+Noeuds de la fin vers le debut: y->v->t->h->g->g->f->a
+----------
+----------
+Sens du tri: desc
+Liste originale: [a,g,t,y,v,f,g,h]
+Noeuds du debut vers la fin: y->v->t->h->g->g->f->a
+Noeuds de la fin vers le debut: a->f->g->g->h->t->v->y
+----------
+----------
+Sens du tri: asc
+Liste originale: [a,G,t,Y,v,F,g,H]
+Noeuds du debut vers la fin: F->G->H->Y->a->g->t->v
+Noeuds de la fin vers le debut: v->t->g->a->Y->H->G->F
+----------
+----------
+Sens du tri: desc
+Liste originale: [a,G,t,Y,v,F,g,H]
+Noeuds du debut vers la fin: v->t->g->a->Y->H->G->F
+Noeuds de la fin vers le debut: F->G->H->Y->a->g->t->v
+----------
+----------
+Sens du tri: asc
+Liste originale: [ABC,efg,HGI,klmnop]
+Noeuds du debut vers la fin: ABC->HGI->efg->klmnop
+Noeuds de la fin vers le debut: klmnop->efg->HGI->ABC
+----------
+----------
+Sens du tri: desc
+Liste originale: [ABC,efg,HGI,klmnop]
+Noeuds du debut vers la fin: klmnop->efg->HGI->ABC
+Noeuds de la fin vers le debut: ABC->HGI->efg->klmnop
+----------
+----------
+Sens du tri: asc
+Liste originale: [1,6,7,4,5,80,755,12,54674,33333444,202,5049,30394020,0403023]
+Noeuds du debut vers la fin: 1->4->5->6->7->12->80->202->755->5049->54674->403023->30394020->33333444
+Noeuds de la fin vers le debut: 33333444->30394020->403023->54674->5049->755->202->80->12->7->6->5->4->1
+----------
+----------
+Sens du tri: desc
+Liste originale: [1,6,7,4,5,80,755,12,54674,33333444,202,5049,30394020,0403023]
+Noeuds du debut vers la fin: 33333444->30394020->403023->54674->5049->755->202->80->12->7->6->5->4->1
+Noeuds de la fin vers le debut: 1->4->5->6->7->12->80->202->755->5049->54674->403023->30394020->33333444
+----------
+----------
+Sens du tri: asc
+Liste originale: [Antoine,Claude,Guy,Robert,Marcel,Evgeny,Charles,Igor,Maurice]
+Noeuds du debut vers la fin: Antoine->Charles->Claude->Evgeny->Guy->Igor->Marcel->Maurice->Robert
+Noeuds de la fin vers le debut: Robert->Maurice->Marcel->Igor->Guy->Evgeny->Claude->Charles->Antoine
+----------
+----------
+Sens du tri: desc
+Liste originale: [Antoine,Claude,Guy,Robert,Marcel,Evgeny,Charles,Igor,Maurice]
+Noeuds du debut vers la fin: Robert->Maurice->Marcel->Igor->Guy->Evgeny->Claude->Charles->Antoine
+Noeuds de la fin vers le debut: Antoine->Charles->Claude->Evgeny->Guy->Igor->Marcel->Maurice->Robert
+----------
+----------
+Sens du tri: asc
+Liste originale: [1,5,7,c,g,4,h,7,a,T,6,e,5,0.55,540.204,110000.43045,informatique]
+Noeuds du debut vers la fin: 0.55->1->4->5->5->6->7->7->540.204->110000.43045->T->a->c->e->g->h->informatique
+Noeuds de la fin vers le debut: informatique->h->g->e->c->a->T->110000.43045->540.204->7->7->6->5->5->4->1->0.55
+----------
+----------
+Sens du tri: desc
+Liste originale: [1,5,7,c,g,4,h,7,a,T,6,e,5,0.55,540.204,110000.43045,informatique]
+Noeuds du debut vers la fin: informatique->h->g->e->c->a->T->110000.43045->540.204->7->7->6->5->5->4->1->0.55
+Noeuds de la fin vers le debut: 0.55->1->4->5->5->6->7->7->540.204->110000.43045->T->a->c->e->g->h->informatique
+----------
+----------
+Sens du tri: asc
+Liste originale: [1.5,6.785,5.357853,6.7534566,5.99999,5.99998,1.56043904,92.393094930,2040300.3049303]
+Noeuds du debut vers la fin: 1.5->1.56043904->5.357853->5.99998->5.99999->6.7534566->6.785->92.39309493->2040300.3049303
+Noeuds de la fin vers le debut: 2040300.3049303->92.39309493->6.785->6.7534566->5.99999->5.99998->5.357853->1.56043904->1.5
+----------
+----------
+Sens du tri: desc
+Liste originale: [1.5,6.785,5.357853,6.7534566,5.99999,5.99998,1.56043904,92.393094930,2040300.3049303]
+Noeuds du debut vers la fin: 2040300.3049303->92.39309493->6.785->6.7534566->5.99999->5.99998->5.357853->1.56043904->1.5
+Noeuds de la fin vers le debut: 1.5->1.56043904->5.357853->5.99998->5.99999->6.7534566->6.785->92.39309493->2040300.3049303
+----------
+----------
+Sens du tri: asc
+Liste originale: [Antoine,1.5906049,g,T,55667788,1.23456455,1.70807969595,1.504503404040,555,92,34,28,Edouard,203323,32,abcdefg,BIERE]
+Noeuds du debut vers la fin: 1.23456455->1.50450340404->1.5906049->1.70807969595->28->32->34->92->555->203323->55667788->Antoine->BIERE->Edouard->T->abcdefg->g
+Noeuds de la fin vers le debut: g->abcdefg->T->Edouard->BIERE->Antoine->55667788->203323->555->92->34->32->28->1.70807969595->1.5906049->1.50450340404->1.23456455
+----------
+----------
+Sens du tri: desc
+Liste originale: [Antoine,1.5906049,g,T,55667788,1.23456455,1.70807969595,1.504503404040,555,92,34,28,Edouard,203323,32,abcdefg,BIERE]
+Noeuds du debut vers la fin: g->abcdefg->T->Edouard->BIERE->Antoine->55667788->203323->555->92->34->32->28->1.70807969595->1.5906049->1.50450340404->1.23456455
+Noeuds de la fin vers le debut: 1.23456455->1.50450340404->1.5906049->1.70807969595->28->32->34->92->555->203323->55667788->Antoine->BIERE->Edouard->T->abcdefg->g
+----------

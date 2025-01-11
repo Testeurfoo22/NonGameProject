@@ -1,0 +1,83 @@
+/*<!--de Ryck Hadrien-->
+<!--Louis Bertrand-->*/
+
+@font-face{
+    font-family: "Kiwi_Maru";
+    src: url("../Kiwi_Maru/KiwiMaru-Medium.ttf")
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+    margin: 0px;
+
+    background-color: black;
+
+    font-family: "kiwi_Maru";
+}
+
+
+.navBar{
+    width: 100%;
+    height: 100px;
+
+    background-image: url("../image/vortex.jpg");
+    background-size: 100%;
+    background-position-x: -20px;
+    background-position-y: -300px;
+
+    border-bottom: 5px solid black;
+
+    z-index: 10;
+}
+
+.navMiddle{
+    display: inline-block;
+
+    width: 500px;
+    height: 90px;
+
+    left: calc(50% - 250px);
+
+    position: absolute;
+}
+
+.navMiddle img{
+    width: 90px;
+    height: 90px;
+}
+
+.navBar p{
+    margin: 0;
+    margin-top: 35px;
+    padding: 0;
+    
+    width: 178px;
+
+    vertical-align: top;
+
+    display: inline-block;
+}
+.navRight  p{
+    width: auto;
+}
+
+
+.navBar  a{
+    float: right;
+
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navRight  a{
+    float: left;
+}
+
+.navRight{
+    float: right;
+
+    width: 150px;
+    height: 90px;
+}

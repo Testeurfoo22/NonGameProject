@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Login - aThemes</title>
+		<meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="homeimages/petitAvion.PNG" />
+        <link rel="stylesheet" href=".css/StyleCommun.css">
+        <link rel="stylesheet" href=".css/SignIn.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="navBar">
+            <div class="navBar2">
+                <ul class="ulNavBar">
+                    <li class="liLeft"><a href="index.html"><img src="homeimages/athemeBlanc.PNG" alt="atheme"></a></li>
+                    <li class="liSignIn"><a href="SignIn.html" class="spaceBar">Sign in</a></li>
+                    <li class="liRight"><a href="Blog.html"> Blog</a></li>
+                    <li class="liRight"><a href="#">Support</a></li>
+                    <li class="listeTheme">
+                        <a href="#">WorldPress Themes <em class="fa fa-angle-down"></em></a>
+                        <div class="listeTheme-ref">
+                            <a href="#">Sydney</a>
+                            <a href="#">Airi</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="divLogin">
+            <div>
+                <form class="login" action= "index.html"
+                    method= "post" enctype = "multipart/form-data">
+                    <h2 class="affichageCouleurNoir">Login</h2>
+                    <p class="form"><Strong>Log into Your Account</Strong></p>
+                    <p class="form"><label for="nomUtilisateur">Username or Email </label><br>
+                        <input type="text" id="nomUtilisateur" name="nomUtilisateur" required class="text" /></p>
+                    <p class="form"><label for="motDePasse">Password </label><br>
+                        <input type="password" id="motDePasse" name="motDePasse" required class="text" /></p>
+                    <p><input type="checkbox" id="seSouvenir" name="seSouvenir">
+                        <label for="seSouvenir">Remember Me</label></p>
+                    <input type="submit" value="Log In" class="submit" /><br>
+                    <p id="specialafter"><a href="#" class="specialBleu">Lost Password?</a></p>
+                    <p id="specialafter2"><strong>Don't have an account yet?</strong> You can <a href="#" class="specialBleu">register for free here</a>.</p>
+                </form>
+            </div>
+        </div>
+
+        <div class="divFooter">
+            <div class="footer">
+                <div class="footerA">
+                    <ul class="padding">
+                        <li>Follow Our <br> Social Networks </li>
+                        <li class="right">
+                            <a href="#" class="linkReseauFacebook">
+                                <img src="homeimages/facebook.PNG" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="right">
+                            <a href="#" class="linkReseauTwitter">
+                                <img src="homeimages/twitter.PNG" alt="twitter">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="footerB">
+                    <ul class="SpecialCouleurNoir">
+                        <li class="liHaut">Be the First One to Hear <br> About Updates</li>
+                        <li>
+                            <form class="emaillogin" action= "#"
+                                method= "post" enctype = "multipart/form-data">
+                                <label for="email"></label><input type="text" class="email" name="email" id="email" placeholder="Enter your email" />
+                                <input type="submit" value="Subscribe" class="emailSubmit" />
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerSecond">
+                <div class="footerA">
+                    <h3><a href="index.html"><img src="homeimages/atheme.PNG" alt="atheme"></a></h3>
+                    <p>The ‘a’ in aThemes stands for Awesome. We create well-designed and easy to use themes, backed up by speedy
+                        support and frequent updates. Check out our blog for all things WordPress: from tutorials to tricks and
+                        guides to help you create a great WordPress website.</p>
+                </div>
+                <div class="footerB">
+                    <div class="width-280">
+                        <h3>Useful Links</h3>
+                        <ul class="usefulLinks">
+                            <li><a href="#">Contact</a></li>
+                            <li class="paddingUseful"><a href="#">Pricing</a></li>
+                            <li class="paddingUseful"><a href="#">Affiliates</a></li>
+                            <li class="paddingUseful"><a href="#">About</a></li>
+                            <li class="paddingUseful"><a href="#">Advertise</a></li>
+                        </ul>
+                    </div>
+                    <div class="width270">
+                        <h3>Top Posts</h3>
+                        <p><a href="https://www.google.fr">The 10 Best WorldPress Page Builder Plugins Compared 2021</a></p>
+                        <p><a href="https://www.google.fr">Fastest WordPress Hosting 2021</a></p>
+                        <p><a href="https://www.google.fr">9 Best WordPress Live Chat Plugins 2021</a></P>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>© 2021 aThemes. All rights reserved.</p>
+            </div>
+        </div>
+    </body>
+</html>

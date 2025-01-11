@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+	<head> 
+		<title>Html5</title> 
+		<meta charset="UTF-8"> 
+	</head>
+    
+    <!--- Exercice 1 -->
+    <section>
+        <h1>Exercice 1</h1>
+        <form id="exercice-1" action= "https://www.w3schools.com/action_page.php"
+		method= "post" enctype = "multipart/form-data">
+            
+            <label for="nomUtilisateur1">Nom d'utilisateur : </label><input type="text" id="nomUtilisateur1" name="username" /><br>
+            <label for="motDePasse1">Mot de passe : </label><input type="password" id="motDePasse1" name="password" /><br>
+            <input type="submit" value="Se connecter" />
+            
+        </form>  
+    </section>
+    
+    <!--- Exercice 2 -->
+    <section>
+        <h1>Exercice 2</h1>
+        <form id="exercice-2" action= "https://www.w3schools.com/action_page.php"
+		method= "post" enctype = "multipart/form-data">
+            
+            <label for="nom">Nom(*) : </label><input type ="text" id="nom" name="lname" required /><br>
+            <label for="prenom">Prénom(*) : </label><input type ="text" id="prenom" name="fname" required /><br>
+            <label for="nomUtilisateur2">Nom d'utilisateur(*) : </label><input type="text" id="nomUtilisateur2" name="username" required /><br>
+            <label for="motDePasse2">Mot de passe(*) : </label><input type="password" id="motDePasse2" name="password" required /><br>
+            <label for="c-motDePasse2">Confirmation du mot de passe(*) : </label>
+                <input type="password" id="c-motDePasse2" name="c-password" required /><br>
+            <input type="submit" value="S'engeristrer" />
+            
+        </form>
+    </section>
+    
+    <!--- Exercice 3 -->
+    <section>
+        <h1>Exercice 3</h1>
+        <form id="exercice-3" action= "https://www.w3schools.com/action_page.php"
+		method= "post" enctype = "multipart/form-data">
+            
+            <label for="name">Nom Complet(*) : </label><input type="text" id="name" name="name" required/><br>
+            <label for="adress">Adresse(*) : </label><input type="text" id="adress" name="adress" required/><br>
+            <label for="n-apartement">Numéro d'appartement : </label><input type="number" id="n-apartement" name="n-apartement" /><br>
+            <label for="tel">Téléphone(*) : </label>
+                <input type="tel" id="tel" name="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required /><br>
+            <label for="pizza-size">Taille pizza : </label>
+                <select name="pizza-size" id="pizza-size">
+                    <option value="+0$">Petite</option>
+                    <option value="+3$">Moyenne</option>
+			        <option value="+7$">Grande</option>
+                </select><br>
+            <label for="pizza-type">Type pizza : </label>
+                <select name="pizza-type" id="pizza-type">
+                    <option value="13$">Pepperoni</option>
+                    <option value="10$">Double fromage</option>
+			        <option value="9$">Végétarienne</option>   
+                    <option value="12$">Végane</option>
+                </select><br>
+            <label for="pizza-amout">Nombre de pizza : </label><input type="number" id="pizza-amout" name="pizza-amount" value="1" required /><br>
+            <label>Choix extra : </label>
+                <label for="nothing">aucun </label><input type="checkbox" id="nothing" name="pizza-extras" value="nothing" checked />
+                <label for="fries">frites </label><input type="checkbox" id="fries" name="pizza-extras" value="fries" />
+                <label for="soft-drink">boisson </label><input type="checkbox" id="soft-drink" name="pizza-extras" value="drink" />
+                <label for="poutine">pautine </label><input type="checkbox" id="poutine" name="pizza-extras" value="poutine" /><br>
+            <input type="submit" value="commander" />
+            
+        </form>
+    </section>
+    
+</html>

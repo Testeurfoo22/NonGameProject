@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://ceduni.github.io/udem-ift2255/devoirs/template.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFT2255 | Rapport DM1</title>
+    <link rel="shortcut icon" href="https://ceduni.github.io/udem-ift2255/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./IFT2255 _ Rapport DM1_files/normalize.css">
+    <link rel="stylesheet" href="./IFT2255 _ Rapport DM1_files/base.css">
+    <style>
+        .report-header {
+            padding-top: 24px; padding-bottom: 24px;
+            background-color: #fff;
+        }
+
+        .title-section {
+            padding-left: 5vw;
+            padding-right: 5vw;
+        }
+
+        .report-title {
+            color: royalblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .report-summary {
+            max-width: 800px;
+            font-size: 1.4em;
+            color: #555;
+        }
+        
+        .section-title {
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            font-size: 2.4em; font-weight: 300;
+        }
+
+        .team-section {
+            padding-left: 5vw;
+            padding-right: 5vw;
+        }
+
+            .team-title {
+                font-weight: 500;
+                margin-bottom: 12px;
+                color: #1C3A94;
+            }
+
+            .members {
+                display: flex; flex-direction: row;
+            }
+
+            .member {
+                display: flex; flex-direction: column;
+            }
+                .member:not(:last-child) {
+                    margin-right: 12px;
+                }
+
+                .member-pic {
+                    display: block;
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                .member-role {
+                    font-size: 0.9em; font-weight: 500;
+                    color: #555;
+                }
+
+        .report-body {
+            display: flex;
+        }
+
+        .report-aside {
+            padding-top: 24px;
+            padding-right: 12px;
+            padding-left: 5vw;
+            box-shadow: 1px 0 1px #999;
+        }
+
+        .report-main {
+            padding-left: 12px;
+            max-width: 1200px;
+            padding-right: 5vw;
+            padding-top: 24px;
+        }
+
+        .nav {
+            color: #E87429;
+        }
+
+        .nav-item__link {
+            display: block;
+            padding: 6px;
+            text-decoration: none;
+        }
+
+        .glossary {
+            font-size: 1.4em;
+        }
+        
+        .jojo {
+            font-size: 1.4em;
+        }
+        
+        .case {
+            width: 1200px;
+            height: auto;
+        }
+        
+        .preview-img {
+            display: block;
+            width: 600px;
+            height: auto;
+        }
+
+        .report-footer {
+            background-color: #2C5EB4;
+            padding: 12px 5vw 24px;
+        }
+
+        .report-footer p {
+            margin: 0;
+        }
+
+        .report-footer__link {
+            color: #fff;
+        }
+        .tab {
+            margin-left: 25px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="report-header">
+        <div class="title-section">
+            <h1 class="report-title">Rapport du Devoir 3</h1>
+            <p class="report-summary">
+                Ce rapport décrit la planification et les travaux
+                préliminaires du projet Roundtable, une application permettant au groupe de recherche
+                GEODES de faire un suivi efficace de ses activités. Les travaux préliminaires
+                comprennent entre autres les cas d'utilisation, l'analyse des risques et une maquette d'un prototype
+                du produit. Pour cela, des diagrammes d'activités, de classe, et de séquence ont été créés.
+            </p>
+        </div>
+
+        <div class="team-section">
+            <h2 class="team-title" style="text-align:left">Notre équipe</h2>
+            <ul class="bare-list members">
+                <li class="member">
+                    <img class="member-pic" src="./images/pic1.jpg" alt="">
+                    <div class="member-identification">
+                        <span class="member-name">Félix PIGEON</span>
+                        <span class="member-id">20153060</span>
+                    </div> 
+                    <a href="mailto:felix.pigeon@umontreal.ca">felix.pigeon@umontreal.ca</a>
+                    <span class="member-role">Chargé de l'assurance de la qualité</span>
+                </li>
+                <li class="member">
+                    <img class="member-pic" src="./images/pic2.jpg" alt="">
+                    <div class="member-identification">
+                        <span class="member-name">Hadrien DE RYCK</span>
+                        <span class="member-id">1034870</span>
+                    </div> 
+                    <a href="mailto:hadrien.de.ryck@umontreal.ca">hadrien.de.ryck@umontreal.ca</a>
+                    <span class="member-role">Chargé de l'implémentation</span>
+                </li>
+                <li class="member">
+                    <img class="member-pic" src="./images/pic3.jpg" alt="">
+                    <div class="member-identification">
+                        <span class="member-name">Linda NGUYEN</span>
+                        <span class="member-id">20002732</span>
+                    </div> 
+                    <a href="mailto:linda.nguyen@umontreal.ca">linda.nguyen@umontreal.ca</a>
+                    <span class="member-role">Chargée de gestion de projet</span>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="report-body">
+        <aside class="report-aside">
+            <nav>
+                <ul class="bare-list nav">
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#plan">Plannification</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#domain">Compréhension du domaine</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#model">Modélisation du domaine</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#analysis">Analyse</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#conception">Conception</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#prototype">Prototype</a> 
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="report-main">
+            <section>
+                <br><br>
+                <h2 id="plan" class="section-title">Plannification</h2>
+                <br>
+                <h3>Description brève du domaine et du problème</h3>
+                <p>
+                    Le GEODES est un centre de recherche dans le domaine du génie logiciel.
+                    Il réunit plusieurs professeurs, chercheurs et étudiants qui collaborent
+                    ensemble sur divers projets, outils, publications d'articles et d'organisation
+                    d'événements. Le GEODES recherche une platforme qui complète déjà leurs outils existants.
+                    Pour cela, la plateforme, Roundtable, devrait être en mesure de (tel qu'exprimé par le client):
+                </p>
+                    <ul>
+                        <li>Faire le suivi des membres et des activités de recherche du groupe</li>
+                        <li>Se souscrire à de multiples intérêts de recherche ou sujets particuliers</li>
+                        <li>Visualiser les informations de ces entités</li>
+                        <li>Formuler quelques requêtes pour explorer et manipuler ces relations</li>
+                    </ul>
+                
+                <h3>Présentation de l'échéancier et la distribution des taches</h3>
+                
+                <p>Semaine 1</p>
+                <ul>
+                    <li>17/05/: Fin de formation d'équipe</li>
+                    <li>19/05: Brainstorm des questions d'interview pour la première semaine + envoyées à L-E</li>
+                    <li>21/05: Création du répertoire HobbitsDevoirs</li>
+                </ul>
+                <p>Semaine 2</p>
+                <ul>
+                    <li>Identification des CUs, besoins fonctionnels et non-fonctionnels (fichier Définition du domaine.md): toute l'équipe</li>
+                    <li>26/05: Continuation du brainstorm des questions d'interview pour la deuxième semaine + envoyées à L-E</li>
+                    <li>Apprendre GitHub</li>
+                    <li>Contexte et problèmes à résoudre (fichier Cadre du projet.md): toute l'équipe</li>
+                    <li>28/05 Création de la branche Dev</li>
+                </ul>
+                <p>Semaine 3</p>
+                <ul>
+                    <li>30/05: Fin du brainstorm des questions d'interview pour la troisième semaine + envoyées à L-E</li>
+                    <li>01/06: Une première itération du prototype fonctionnel de fait en java.</li>
+                    <li>Répartition des tâches restantes</li>
+                    <li>Finaliser Cadre du projet et Définition du domaine: toute l'équipe</li>
+                    <li>Scénarios des CUs (fichier Livrables.md): Félix, Linda</li>
+                    <li>04/06 Diagramme CU avec Visual Paradigm: Linda</li>
+                    <li>Analyse (fichier Analyse.md): Félix</li>
+                    <li>Prototype (images): Hadrien</li>
+                    <li>Mise en page du rapport HTML: Félix, Linda</li>
+                    <li>Révision du contenu et de la grammaire: Félix, Hadrien</li>
+                    <li>Prototype fonctionnel: Hadrien</li>
+                </ul>
+                <p>Semaine 5</p>
+                <ul>
+                    <li>14/06: Ajout de tickets dans GitHub</li>
+                    <li>19/06: Début des diagrammes d'activités</li>
+                </ul>
+                <p>Semaine 6</p>
+                <ul>
+                    <li>23/06: Question de la semaine (au niveau des notifications par courriel) envoyée à L-E</li>
+                </ul>
+                <p>Semaine 7</p>
+                <ul>
+                    <li>30/06: Création de nouvelles branches</li>
+                    <li>Révision des scénarios des CUs</li>
+                    <li>02/07: Achèvement des diagrammes d'activités: Linda</li>
+                    <li>01/07 - 02/07: Diagramme de classe complétée: Hadrien et Linda</li>
+                    <li>01/07 - 05/07: Raffinement du prototype fonctionnel: Hadrien et Félix</li>
+                    <li>02/07 - 05/07: Diagramme de séquence: Félix</li>
+                    <li>Tests, vérification des diagrammes et du prototype: Félix</li>
+                </ul>
+                
+                <h3>Ordre des priorités de tâches</h3>
+                <ol>
+                    <li>Élaborer les questions d’interview pour recueillir le maximum d’information possible pour mieux cerner les besoins du client. Cette tâche est en priorité à chaque semaine considérant le fait qu’il y a une date limite pour les envoyer au client.</li>
+                    <li>Établir les besoins fonctionnels en faisant en autre une liste des cas d’utilisations (CUs) ainsi que les besoins non-fonctionnels.</li>
+                    <li>Recevoir du feedback sur les CUs considérant que le reste incluant le prototype découlent de ceux-là.</li>
+                    <li>Décrire les scénarios de chacun des CUs pour diriger le prototype.</li>
+                    <li>Modéliser le diagramme des cas d'utilisations pour avoir une bonne apperçu du problème.</li>
+                    <li>Commencer le prototype fonctionnel par petits itérations au cas ou les CUs doivent encore être modifiés et pour bien diviser les tâches.</li>
+                    <li>Mise en page du rapport par itérations pour offrir une meilleure visibilité des tâches restantes et des aspects à réviser.</li>
+                    <li>Apporter des révisions aux CUs et au prototype au fur et à mesure dans le processus de développement.</li>
+                    <li>Ajouter les événements dans la conception et l'implémentation.</li>
+                    <li>Modéliser le diagramme d'activités pour avoir une bonne compréhension du flux des activités.</li>
+                    <li>S'assurer que le code commence à valider les entrées dans le prototype.</li>
+                    <li>Faire la révision des CUs avec les nouvelles informations de l'énoncé 2.</li>
+                    <li>Élaborer le diagramme d'activités.</li>
+                    <li>Élaborer le diagramme de classes à l'aide de notre prototype fonctionnel.</li>
+                    <li>Élaborer le diagramme de séquence.</li>
+                    <li>Élaborer sur la justification du désign au niveau de la Conception.</li>
+                    <li>Tester le prototype fonctionnel et vérifier l'ensemble des diagrammes ainsi que le rapport.</li>
+                    <li>Faire le lien entre la vraie base de données et la plateforme Roundtable.</li>
+                </ol>
+                <h3>Présentation des hypothèses</h3>
+                    <ul>
+                        <li>Le groupe de recherche a accès à un serveur puisqu'il héberge son site web.</li>
+                        <li>Le groupe de recherche a un moyen de distribuer l'application à ses membres puisqu'ils se rencontrent chaque vendredi.</li>
+                        <li>Les données privés devraient être protégées (ex. articles non publiés)</li>
+                        <li>Le système n'a pas besoin de supporter plus de 1000 utilisateurs.</li>
+                    </ul>
+                <h3>Échanges avec client: Questions posées et réponses trouvées</h3>
+                    <p>Semaine 1</p>
+                        <ul>
+                            <li>À quelles questions les requêtes doivent-elles permettre de répondre ?</li>
+                            <li>Quelles sont les informations que vous aimeriez voir des entités sur la plateforme Roundtable?</li>
+                            <li>La difficulté de faire le suivi revient souvent. Quels sont les mécanismes de suivi recherché ?</li>
+                        </ul>
+                    <p>Semaine 2</p>
+                        <ul>
+                            <li>Avez-vous des contraintes en général, tel que sur le plan matériel (serveurs, storage/espace, cloud..) par exemple?</li>
+                            <li>Est-ce que Roundtable doit offrir un système de messagerie et d’agenda simplifié, permettant un contrôle des échanges, des regroupements et une vision plus claire des suivis quotidiens? </li>
+                        </ul>
+                    <p>Semaine 3</p>
+                        <ul>
+                            <li>Feedback sur les Cas d'Utilisations</li>
+                        </ul>
+                    <p>Semaine 6</p>
+                        <ul>
+                            <li>Pouvez-vous clarifier plus sur les notifications par email? Si un membre veut cela par courriel, est-ce que c'est bien dans le Profil que le membre change son préférence?
+                                Et puis, est-ce que les préférences peuvent être différents pour chaque activité souscrit ou c'est un seul option de préférence pour toutes les activités souscrits.
+                                Finalement, si un membre est inscrit pour les notifications par email, est-ce qu'une notification est quand même affichée dans la plateforme Roundtable aussi, ou bien c'est l'un ou l'autre dépendamment des préférences du membre.</li>
+                        </ul>
+                    <p>La première semaine, le client a spécifié les requêtes qu'il souhaite voir
+                        dans Roundtable. Il y en a plusieurs tels que les requêtes publiques
+                        (e.g. "Afficher la liste des membres", "Afficher la liste des outils
+                        publiques") et les requêtes administratives (e.g. supprimer un activité).
+                        Deuxièmement, il y a eu plus d'élaborations sur les informations des
+                        entités: par exemple, un article a un titre, une description et une date.
+                        Il possède un niveau de visibilité, un statut et bien plus. D'autres
+                        explications ont été apportés sur les projets ainsi que sur les outils. Ensuite,
+                        en ce qui concerne le suivi des activités, cela mentionne que les activités ont
+                        un professeur responsable, des intérêts assignés, un niveau de visibilité, des
+                        mots-clés et de plus, les membres souscrits recoivent une notification de l'activité.</p>
+                    <p>Pour la deuxième semaine, il a été dit qu'il n'y a pas de contraintes en dehors de
+                        l'énoncé (c'est l'analyse qui élabore dessus). Puis, une clarification a été apporté
+                        à l'énoncé mentionnant que la plateforme Roundtable ne vise pas à remplacer les outils
+                        existants tels que Discord et le site web du GEODES, mais qu'il les complémente (e.g.
+                        donc, on n'a pas besoin créé un système de messagerie puisque le groupe
+                        continura à utiliser ce qu'ils ont en ce moment.)</p>
+                    <p>Pour la troisième semaine, nous avons choisi de recevoir du feedback sur
+                        les cas d'utilisations, ce qui a permis de réaliser que plusieurs aspects comme les
+                        mots-clés et les niveaux de visiblité ne sont pas des CUs mais plutôt qu'ils font partis
+                        de la définition d'un activité même et interviennent lors de la manipulation des activités.</p>
+                    <p>Finalement, pour la semaine 6, nous avons demandé de la clarification au niveau des
+                       notifications des activités souscrits par courriel. Modifier sa préférence pour recevoir le tout par courriel se
+                       fait dans la Gestion du Profil d'un membre. La configuration se fait pour l'ensemble des activités souscrits et non
+                       pour des activités en particulier. Et si un membre s'inscrit aux notifications par courriel, il peut quand même consulter
+                       ses notifications à travers la plateforme Roundtable.</p>
+            </section>
+
+            <section><br><br><br>
+                <h2 id="domain" class="section-title">Compréhension du domaine</h2><br>
+                <br>
+                <p>
+                    Suite à nos rencontres avec les représentant du groupe GEODES et une familiarisation
+                    avec ses activités (énoncé du client, exploration de son site web, des projets, outils et articles), nous avons préparé un glossaire 
+                    rassemblant les termes et expressions clés caractérisant l'environnement.
+                </p>
+                <h3>Glossaire</h3>
+
+                <dl class="glossary">
+                    <dt class="glossary-term">Activité</dt>
+                    <dd class="glossary-def">Opérations du groupe de recherche. Terme général pour définir l'ensemble des articles, outils et projets. Les activités ont un professeur responsable et un niveau de visibilité.</dd>
+                    <dt class="glossary-term">Administrateur</dt>
+                    <dd class="glossary-def">Rôle spécial. Il administre le système (attribution des rôles, validation des nouveaux membres, supression des activités obsolètes).</dd>
+                    <dt class="glossary-term">Article</dt>
+                    <dd class="glossary-def">Un article est une publication par des membres du GEODES. Il comporte un titre, un résumé et la date à laquelle il a été publié. Il peut avoir plusieurs auteurs et collaborateurs. Un article a un statut assigné (brouillon, prêt, soumis et publié). Par défaut, une fois publié, un article a un niveau visibilité public et peut contenir un lien vers la version PDF.</dd>
+                    <dt class="glossary-term">Créateur d'une activité</dt>
+                    <dd class="glossary-def">Membre qui a créé une activité donnée</dd>
+                    <dt class="glossary-term">Fiche</dt>
+                    <dd class="glossary-def">Ensemble des informations liées à une activité.</dd>
+                    <dt class="glossary-term">GEODES</dt>
+                    <dd class="glossary-def">Le GEODES est un centre de recherche au sein du DIRO dans lequel les membres collaborent sur différents sujets, que cela soit sur les activités liés au processus de dévelopment, l'application de méthodes pour évaluer les logiciels et dans les domaines d'affaires, l'utilisation de l'intelligence artificielle en génie logiciel.</dd>
+                    <dt class="glossary-term">Intérêt</dt>
+                    <dd class="glossary-def">Liste de sujets modifiable par les professeurs. Les intérêts sont associés aux activités et aux membres et permettent de rafiner les recherches.</dd>
+                    <dt class="glossary-term">Membre</dt>
+                    <dd class="glossary-def">Un membre est un des éléments du groupe de recherche. Il peut avoir le rôle d'administrateur, de professeur ou de simple membre.</dd>
+                    <dt class="glossary-term">Mot-clé</dt>
+                    <dd class="glossary-def">Mots associés aux activités par les créateurs de celles-ci.</dd>
+                    <dt class="glossary-term">Mot de passe</dt>
+                    <dd class="glossary-def">Pour des raisons de sécurité, le mot de passe servant à s'authentifier sur la plateforme devra respecter les critères suivants: il doit avoit au moins 8 caractères, 1 chiffre, 1 majuscule, 1 minuscule et 1 caractère spécial.</dd>
+                    <dt class="glossary-term">Outil</dt>
+                    <dd class="glossary-def">Un outil est un produit développé par les membres du groupe de recherche qui sert de démo ou de preuve de concept. Il peut être lié à des articles et est toujours lié à un code source.</dd>
+                    <dt class="glossary-term">Professeur</dt>
+                    <dd class="glossary-def">Les professeurs dirigent le groupe de recherche. Ils ont donc accès aux activités de recherche dont ils sont responsables. Chaque membre non professeur et non administrateur est associé à un professeur. Les professeurs ont un rôle associé dans le système.</dd>
+                    <dt class="glossary-term">Profil</dt>
+                    <dd class="glossary-def">Ensemble des informations liées à un membre tel que le nom d'un membre, ses coordonnés, ses préférences au niveau des champs d'intérêt de recherche/sujets particuliers, ses récentes publications, projets et outils. Celui-ci peut aussi présenter des ressources qu'il juge pertinentes à partager.</dd>
+                    <dt class="glossary-term">Projet</dt>
+                    <dd class="glossary-def">Un projet est une collaboration sur des travaux de recherche entre plusieurs partenaires et un professeur. Il comporte un titre, une description et la période désignée pour ce projet.</dd>
+                    <dt class="glossary-term">Requête</dt>
+                    <dd class="glossary-def">Une requête permet à l'utilisateur de générer de divers rapports (e.g. afficher la liste des membres, afficher la liste des outils) et compléter des tâches administratives (e.g. lecture des notifications, supprimer une activité) à travers la plateforme.</dd>
+                    <dt class="glossary-term">Responsable d'une activité</dt>
+                    <dd class="glossary-def">Union du créateur de l'activité et de son professeur associé.</dd>
+                    <dt class="glossary-term">Rôle</dt>
+                    <dd class="glossary-def">Un rôle est défini par un nom unique (PROFESSEUR, ADMINISTRATEUR, MEMBRE) et est associé à chaque membre par les administrateurs. Il détermine les permissions des utilisateurs.</dd>
+                    <dt class="glossary-term">Roundtable</dt>
+                    <dd class="glossary-def">Roundtable est le nom donné à la plateforme qui sera utilisée par le GEODES pour complémenter les outils que ce dernier utilise déjà. L'interface est en ligne de commande.</dd>
+                    <dt class="glossary-term">Suivi</dt>
+                    <dd class="glossary-def">La plateforme permet aux utilisateurs d'êtres à jour dans les activités survenant au sein du GEODES aux moyens de plusieurs fonctionalités de suivi. Elle permet l'ajout, la modification et la supression d'activités (i.e. Articles, Outils, Projets), la souscription à ces dernières ainsi qu'à l'inscription et la désincription des intérêts de recherche.</dd>
+                </dl>
+                
+            </section>
+
+            <section><br><br><br>
+                <h2 id="model" class="section-title">Modélisation du domaine</h2><br>
+                <h3>Cas d'utilisation</h3>
+                <img class="case" src="./images/Use%20Case%20Roundtable.png" alt="">
+
+                <h3>Scénarios</h3>
+                
+                <ol type="A">
+                    <li>
+                        <b>Nom: Authentification lors de la connexion en ligne</b><br> 
+                        But: Un membre veut s'authentifier avec ses identifiants pour pouvoir avoir accès à la plateforme.<br> 
+                        Acteurs principaux: Un membre, un professeur ou un administrateur<br> 
+                        Préconditions: L'acteur a déjà un compte dans le système.<br> 
+                        Postconditions: Le système n'est pas modifié après le scénario. <br> 
+                        Scénario principal:<br> 
+                        <ol>
+                            <li>L'acteur qui veut se connecter ouvre l'application Roundtable et arrive à la page d'accueil.</li>
+                            <li>L'acteur choisi l'option 1 "Service de connection".</li>
+                            <li>L'acteur entre son nom d'utilisateur (donc son address courriel) et son mot de passe dans le système.</li>
+                            <li>Le système vérifie les identifiants tapés par le membre.</li>
+                            <li>Le système vérifie que le statut du compte est valide.</li>
+                            <li>Si le système valide les identifiants and amène l'acteur au menu principal si ce dernier passe l'authentication.</li> 
+                        </ol>
+                        Scénario alternatif:<br> 
+                            <div class="tab">
+                                4a. Le système rejecte les identifiants entrés par le membre en retournant un message d'erreur.<br> 
+                                4a.1 L'acteur s'essaie de nouveau en reprenant de l'étape 2.<br><br> 
+                                5a. Le système rejecte l'accès si le statut du compte est suspendu en retournant un message d'erreur.<br> 
+                                5a.1 Le scénario se termine.
+                            </div>
+                    </li>
+                    
+                    <li><br>
+                        <b>Nom: Création d’une activité dans la plateforme</b><br> 
+                        But: Un membre veut ajouter une activité dans le système<br> 
+                        Acteurs principaux: Membre<br> 
+                        Préconditions : Le membre a un compte valide dans le système et est authentifié<br> 
+                        Postconditions :<br> 
+                            - Une nouvelle activité est enregistrée dans le système.<br> 
+                            - Les membres souscrits aux sujets de l'activité ont reçu une notification si l'activité est visible.<br> 
+                            - Les collaborateurs de l'activité ont reçu une notification.
+                            - Pour ceux qui ont la préférence, les membres recoivent aussi la notification par courriel.<br> 
+                        Scénario principale :<br>
+                        <ol>
+                            <li>Le membre navigue dans le menu des activité en choissant l'option 1 à partir du menu principal.</li>
+                            <li>Le membre sélectionne l'activité qu'il désire:</li>
+                                - Projet<br>
+                                - Outil<br>
+                                - Article<br>
+                            <li>Le membre sélectionne l'option d'ajouter l'activité en question.</li>
+                            <li>Appel de cas: "Entrer des informations d'une activité".</li>
+                            <li>Le système affiche un message confirmant la création de l'activité.</li>
+                            <li>Le système propose à l'acteur de retourner au menu de l'activité choisie.</li>
+                        </ol>
+                        Scénario alternatif:<br>
+                            <div class="tab">NA.
+                            </div>
+                </li>
+                 <li>       
+                <br>
+                    <b>Nom: Entrer des informations d'une activité</b><br>
+                    But: Le créateur d'une activité ou son professeur associé souhaite spécifier les informations d'une activité nouvellement créée ou déjà existante.<br>
+                    Acteurs principaux: Créateur ou professeur associé de l'activité<br>
+                    Préconditions: L'acteur a déjà un compte et est déjà authentifié dans le système.<br>
+                    Postconditions:<br>
+                        - Les informations de l'activité sont enregistrées.<br>
+                        - Les membres souscrits aux sujets de l'activité ont reçu une notification si l'activité est visible.<br>
+                        - Les collaborateurs de l'activité ont reçu une notification.<br>
+                        - Pour ceux qui ont la préférence, les membres recoivent aussi la notification par courriel.<br> 
+                    Scénario principal:<br>
+                    <ol>
+                        <li>Le système demande de taper une information (e.g. titre, auteurs) sur l'activité. Si l'information est déjà présente dans le système, est elle proposée à l'acteur.</li>
+                        <li>L'acteur entre l'information correspondante ou accepte l'information déjà présente.</li>
+                        <li>L'acteur entre un court descriptif de la modification de l'activité.</li>
+                        <li>L confirme la création ou modification de l'activité</li>
+                        <li>Le système enregistre l'activité et demande passe à l'élément suivant, puis passe à l'étape 4.</li>
+                        <li>Le système met à jour les accès de l'activité selon les collaborateurs, auteurs.</li>
+                        <li>Appel de cas: Envoi de notifications</li>
+                    </ol>
+                    Scénario alternatif:<br>
+                        <div class="tab">
+                            3a. L'acteur décide de laisser le champs du court descriptif vide vu que c'est un champs optionnel.<br>
+                            3a.1 Le scénario continue par la suite à l'étape 4.
+
+                            4a : Le membre annule la création de l'activité. <br>
+                            4a1: Le membre entre No au moment de la confirmation.<br>
+                            4a2: Le scénario se termine.
+                        </div>
+                    </li><br>
+
+                    <li>
+                        <b>Nom: Modification d’une activité (par créateur et professeur associé)</b><br>
+                        But: Le créateur de l'activité ou le professeur associé veut modifier les propriétés d'une activité. Cela peut être une activitée nouvellement créée.<br>
+                        Acteurs principaux: Créateur de l'activité ou le professeur<br>
+                        Préconditions: L'acteur principal a le droit de modifier l'activité et l'activité existe dans le système. L'acteur a déjà un compte et est déjà authentifié dans le système.<br>
+                        Postconditions:<br>
+                            - Les propriétés de l'activtié sont modifiées dans le système.<br>
+                            - Les membres souscrits aux sujets de l'activité ont reçu une notification<br>
+                            - Les collaborateurs de l'activité ont reçu une notification<br>
+                            - Pour ceux qui ont la préférence, les membres recoivent aussi la notification par courriel.<br>
+                        Scénario principal:<br><ol>
+                            <li>Le membre navigue dans le menu des Activités à partir du menu principal</li>
+                            <li>Le membre sélectionne l'activité qu'il désire:</li>
+                            - Projet<br>
+                            - Outil<br>
+                            - Article<br>
+                            <li>Le membre choisi l'option de modifier l'activité en question.</li>
+                            <li>Le membre choisi l'activité à modifier</li>
+                            <li>Appel de cas: "Entrer des informations d'une activité".</li>
+                            <li>Le système affiche un message confirmant la modification de l'activité</li>
+                            <li>Le système propose à l'acteur de retourner au menu principal</li></ol>
+                        Scénario alternatif: <div class="tab">NA.</div>
+                    </li>
+                    
+                    <li><br>
+                        <b>Nom: Trouver un membre</b><br>
+                        But: Un membre souhaite trouver de l'information sur un autre membre.<br>
+                        Acteurs principaux: Un membre<br>
+                        Préconditions: L'acteur a un compte valide et est déjà authentifié dans le système.<br>
+                        Postconditions: Le système n'est pas modifié après le scénario<br>
+                        Scénario principal:<br>
+                        <ol>
+                            <li>Le membre navigue dans le menu vers la section des Membres</li>
+                            <li>Le membre demande d'afficher la liste des membres qui concordent à une recherche en tapant le nom ou par prénom avec l'option 2.</li>
+                            <li>Le système affiche le nom complet, l'adresse courriel et les intérêts des membres qui matchent les critères de recherche.</li>
+                            <li>Le membre retourne au menu.</li>
+                        </ol>
+                        Scénario alternatif:<br><div class="tab">
+                            2a. Le membre décide de faire sa recherche avec l'option d'afficher la liste de tous les membres avec l'option 1.<br>
+                            2a1. Le système affiche la liste de tous les membres incluant leurs noms complets, leurs courriels et leurs intérêts.<br>
+                            2a3. Le scénario reprend à l'étape 4.<br><br>
+
+                            2b. Le membre décide de recherche le profil complet d'un membre à la place en chosissant l'option 3 en tapant nom et prénom.<br>
+                            2b1. Le système affiche le profil complet du membre (noms, prénoms, adresse courriel, numéro de téléphone, intérêts, 5 derniers articles dont il est auteur, projets publics et outils publics.)<br>
+                            2b2. Le scénario reprend à l'étape 4.<br><br>
+
+                            2c. Le membre décide de recherche un membre en tapant un intérêt avec l'option 4.
+                            2c1. Le système affiche la liste des membres reliés à l'intérêt en question.
+                            2c2. Le scénario reprend à l'étape 4.<br><br>
+
+                            3a. Le membre ne trouve pas le membre qu'il cherche.<br>
+                            3a1. Le membre se réessaye en retournant à l'étape 2.<br>
+                          
+                        </div>
+                    </li>
+                    
+                    <li><br>
+                        <b>Nom: Trouver une activité (articles, projets ou outils)</b><br>
+                        But: Un membre cherche de l'information sur une activité ou une activité en consultant la liste des activités publics.<br>
+                        Acteurs principaux: Un membre<br>
+                        Préconditions: L'acteur a un compte valide et est déjà authentifié dans le système.<br>
+                        Postconditions: Le système n'est pas modifié après le scénario<br>
+                        Scénario principal:<br>
+                        <ol>
+                            <li>Le membre navigue dans le menu vers la section des activités et choisit entre: Aritcle, Projet, Outil.</li>
+                            <li>Le membre choisit d'abord d'afficher la liste des activités publics du type choisit.</li>
+                            <li>Le système affiche la liste des activités publics avec leurs informations associés (e.g. titre, auteur)</li>
+                            <li>L'acteur retourne au menu</li>
+                        </ol>
+                        Scénario alternatif:<br>
+                        <div class="tab">
+                            2a. L'acteur veut faire une recherche par intérêt à la place et choisit l'option pour cela.<br>
+                            2a1.Le système affiche la liste des intérêts.<br>
+                            2a2. L'acteur tape l'intérêt voulu.<br>
+                            2a3. Le système valide l'intérêt.<br>
+                            2a4. Le système affiche la liste des activités ratachés à l'intérêt.<br>
+                            2a5. Retour à l'étape 4.<br><br>
+                            3a. L'acteur veut plus de détails sur une activité.<br>
+                                3a1. L'acteur entre l'option faire une recherche<br>
+                                3a2. Appel de cas: "Rechercher une activité"<br>
+                                3a3. Retour à l'étape 3 avec la liste qui correspond aux résultats de la recherche.<br>
+                        </div>
+                    <li><br>
+                        <b>Nom: Afficher la fiche d'une activité</b><br>
+                        But: Un membre souhaite voir les détails d'une activité<br>
+                        Acteurs principaux: Un membre<br>
+                        Préconditions: L'acteur a un compte valide, est authentifié, il a sélectionné l'activité concernée.<br>
+                        Postconditions: Le système n'est pas modifié après le scénario<br>
+                        Scénario principal:<br>
+                            <ol>
+                                <li>L'acteur navigue au menu des Activités et choisit la recherche de fiche d'activité (option 4)<br>
+                                <li>L'acteur tape le titre/nom de l'activité.<br>  
+                                <li>Le système affiche la fiche complète de l'activité incluant les informations associés à ces dernières (e.g. titre, résumé).<br>
+                                </li>
+                            </ol>
+                        Scénario alternatif: <div class="tab">NA.</div></li>
+                        
+                    <li><br>
+                        <b>Nom: Rechercher une activité</b><br>
+                        But: Un membre cherche de l'information sur une activtié (article ou projet) dont il connait une des propriétés.<br>
+                        Acteurs principaux: Un membre<br>
+                        Précondition: L'acteur a un compte valide et est authentifié dans le système.<br>
+                        Postcondition: Le système n'est pas modifié après le scénario. <br>
+                        Scénario principal:<br>
+                        <ol>
+                            <li>L'acteur navigue au menu des Activités et choisit entre Article et Projet</li>
+                            <li>L'acteur entre les éléments de recherche</li>
+                                2.1 Pour un article, les éléments de recherche disponibles sont :<br>
+                                    - Titre<br>
+                                    - Auteur<br>
+                                    - Mot-clé<br>
+                                2.2 Pour un projet, les éléments de recherche disponibles sont :<br>
+                                    - Titre<br>
+                                    - Responsable<br>
+                            <li>Le système affiche la liste des activités correspondant aux éléments de recheche</li>
+                        </ol>
+                        Scénario alternatif:
+                        <div class="tab">
+                            3a. Aucune activité ne correspond aux éléments entrés
+                                3a1. Le système affiche qu'il n'a rien trouvé et retourne à l'étape 1.</div>
+                        </li>
+                    <li><b>Nom: Création d'un membre (soumission des informations)</b><br>
+                        But: Le membre du GEODES cherche à se créér un compte dans le système ce qui lui donnerait accès à la plateforme par la suite.<br>
+                        Acteurs principaux: Le membre<br>
+                        Acteurs secondaires: Un administrateur<br>
+                        Préconditions: Le membre ouvre l'application Roundtable et arrive à la page d'accueil.<br>
+                        Postconditions: Il y a un membre additionnel dans la base de données du système.<br>
+                        Scénario principal:<br>
+                        <ol>
+                            <li>Le membre chosi l'option 2 (service d'enregistrement) pour se créér un compte.</li>
+                            <li>Le membre tape son nom.</li>
+                            <li>Le membre tape son prénom.</li>
+                            <li>Le membre tape son titre.</li>
+                            <li>Le membre entre dans le système son responsable (donc un professeur ) qu'il a choisit</li>
+                            <li>Le système valide le nom du responsable entré.</li>
+                            <li>Si le nom du responsable est bon, le membre entre ensuite son addresse courriel.</li>
+                            <li>Le système valide le courriel à savoir s'il existe déjà un compte avec le courriel entré ou non.</li>
+                            <li>Le membre se créé un mot de passe.</li>
+                            <li>Le système vérifient que le mot de passe entrée est conforme au règles de sécurité (e.g. le mot de passe doit avoir au moins 8 caractères, 1 chiffre, 1 majuscule, 1 minuscule et 1 caractère spécial)</li>
+                            <li>Le membre entre son numéro de téléphone.</li>
+                            <li>Le membre ses liens, ressources diverses (e.g. réseaux sociaux).</li>
+                            <li>Le membre entre ses intéréts.</li>
+                            <li>Le système valide que les intérêts existent bien dans la base de donnée.</li>
+                            <li>Le membre confirme la création de son compte.</li>
+                            <li>Le système créé un compte, qui a le statut EN_ATTENTE, et affiche un message au niveau du succès sur la création du compte.</li>
+                            <li>Le système envoit un courriel de confirmation et une notification aux administrateurs</li>
+                            <li>Appel de cas: "Valider l'inscription d'un nouveau membre".</li>
+                            <li>Le membre peut maintenant accéder à la plateforme.</li>
+                        </ol>
+                            Scénario alternatif:<div class="tab">
+                            6a. Le système rejecte le nom de responsable entré en affichant un message d'erreur.
+                            <br>6a1. Le membre se réessaie en se reprenant de l'étape 4.
+                            <br><br>8a. Le système rejecte l'addresse courriel entré en affichant un message d'erreur.
+                            <br>8a1. Le membre se réessaie en se reprenant de l'étape 6.
+                            <br><br>10a. Le système rejecte le mot de passe créé en affichant un message d'erreur.
+                            <br>10a1. Le membre se réessaie en se reprenant de l'étape 8.
+                            <br><br>14a. Le système rejecte l'intérêt créé en affichant un message d'erreur.
+                            <br>14a1. Le membre se réessaie en se reprenant de l'étape 12.
+                            <br><br>15a. Le membre ne confirme pas la création du compte.
+                            <br>15a1. Le scénario prend fin.
+                            <br><br>18a. L'administrateur ne valide pas le compte.
+                            <br>18a1. Le scénario se termine.</div>
+                        </li>
+                    <li><br>
+                        <b>Nom: Assigner un rôle à un compte</b><br>
+                        But: un administrateur a le pouvoir d'assigner le role d'un membre lors de la creation du compte membre. Le membre peut etre soit<br>
+                        un membre soit un membre, soit un professeur, soit un administrateur.<br>
+                        Acteurs principaux: Administrateur<br>
+                        Acteurs secondaires: Le membre<br>
+                        Préconditions: le membre doit faire une demande de creation de compte. L'admin a un compte valide et est authentifié dans le système.<br>
+                        Postconditions: affectation du role dans la base de donnee du membre<br>
+                        Scénario principal:<br>
+                        <ol>
+                            <li>Si le membre en question est nouveau, Appel de cas: "Valider l'inscription d'un nouveau membre".</li>
+                            <li>Toujours dans l'interface, l'administrateur rentre choisi le nouveau role à affecter.</li>
+                            <li>L'admin confirme sa modification.</li>
+                        </ol>
+                            Scénario alternatif:<div class="tab">
+                            1a. Si le membre n'est pas nouveau, l'admin utilise l'option Gestion Membre.<br>
+                                1a.1 L'admin utilise l'option Modifier Role.<br>
+                                1a.2 L'admin rentre l'id (mail) du membre en question.<br>
+                                1a.3 L'admin rentre choisi le nouveau role a affecter.<br>
+                                1a.4 L'admin confirme sa modification.<br><br>
+                            2a. si le numero affecte au nouveau role est introuvable, le système redemandera un nouveau choix. </div></li>
+
+                    <li><br>
+                        <b>Nom: Valider l'inscription d'un nouveau membre</b><br>
+                        But: Approuver l'inscription d'un membre au système.<br>
+                        Acteurs principaux: Un administrateur<br>
+                        Préconditions: L'administrateur a déjà soumis ses informations dans le système (donc le compte est déjà créé). <br>
+                        Postconditions: Le statut d'un compte change dans la base de données simplement.<br>
+                        Scénario principal:
+                        <ol>
+                            <li>L'admin utilise l'option Gestion Membre.</li>
+                            <li>L'admin utilise l'option Nouveau membre.</li>
+                            <li>L'admin rentre l'id (mail) du membre en question.</li>
+                            <li>L'administrateur change le statut du compte vers VALIDE.</li>
+                            <li>L'administrateur confirme le changement dans le système.</li>
+                        </ol>
+                        Scénario alternatif:<div class="tab">
+                            4a. L'administrateur ne valide pas le compte selon certains circonstances (par exemple, le professeur choisi a récemment quitté le groupe).<br>
+                                4a.1 L'administrateur contacte le membre pour faire un suivi et rectifier l'inscription si nécéssaire.<br>
+                                4a.2 Le scénario se termine.<br><br>
+                                4b. Si l'id est introuvable, le systeme redemandera un id.<br>
+                                4b.1 L'admin reprend de l'étape 3.</div></li>
+
+                    <li><br>
+                        <b>Nom: Réactiver un compte</b><br> 
+                        But: Réactiver un compte pour que le membre puisse y avoir accès de nouveau.<br>
+                        Acteurs principaux: Un administrateur<br>
+                        Préconditions: Le membre a déjà exprimé son intérêt au niveau de réactiver son compte avec un des administrateurs, qui est d'accord avec cette décision. L'administrateur a un compte valide et est authentifié dans le système.<br>
+                        Postconditions: Le statut d'un compte change dans la base de données simplement.<br>
+                        Scénario principal:<br>
+                        <ol>
+                            <li>L'admin utilise l'option Gestion Membre.</li>
+                            <li>L'admin utilise l'option Modifier Membre.</li>
+                            <li>L'admin rentre l'id (mail) du membre en question.</li>
+                            <li>L'administrateur change le statut du compte vers VALIDE.</li>
+                            <li>L'administrateur confirme le changement dans le système.</li>
+                        </ol>
+                        Scénario alternatif:<div class="tab">
+                            4a. si l'id est introuvable, le systeme redemandera un id.<br>
+                                4a.1 L'admin reprend de l'étape 3.</div></li>
+
+                    <li><br>
+                        <b>Nom: Suspendre un compte</b><br>
+                        But: Désactiver un compte si un membre quitte le GEODES.<br>
+                        Acteurs principaux: Un administrateur<br>
+                        Préconditions: Le membre en question a déjà quitté le groupe.<br>
+                        Postconditions: Le statut d'un compte change dans la base de données simplement. L'administrateur a un compte valide et est authentifié dans le système.<br>
+                        Scénario principal:<br><ol>
+                            <li>L'admin utilise l'option Gestion Membre.</li>
+                            <li>L'admin utilise l'option Modifier Membre.</li>
+                            <li>L'admin rentre l'id (mail) du membre en question.</li>
+                            <li>L'administrateur change le statut du compte vers SUSPENDU.</li>
+                            <li>L'administrateur confirme le changement dans le système.</li></ol>
+                        Scénario alternatif:<div class="tab">
+                            4a. si l'id est introuvable, le systeme redemandera un id.<br>
+                                4a.1 L'admin reprend de l'étape 3.</div></li>
+
+                    <li><br>
+                        <b>Nom: Supprimer une activité</b><br>
+                        But: Enlever un activité (article, projet, outil) du système si cela est jugé pertinent de le faire (e.g. par exemple, il y a un doublon d'un activité entré par erreur).<br>
+                        Acteurs principaux: Un administrateur<br>
+                        Préconditions: Il faut que l'activité en question existe dans la base de données et les parties prenantes (membre, professeur, administrateur concernés) en ont déjà discuté et confirmé la décision de supprimer l'activité du système. L'administrateur a un compte et est déjà authentifié dans le système.<br>
+                        Postconditions: Une activité est supprimée de la base de données. Un notification est envoyé aux membres souscrits avisant de la supression.<br>
+                        Scénario principal:<ol>
+                            <li>L'administrateur fait une requête dans le système pour supprimer l'activité du système.</li>
+                            <li>L'administrateur tape un court descriptif expliquant la supression de l'activité.</li>
+                            <li>L'administrateur confirme le changement.</li>
+                            <li>L'administrateur avise que cela a été supprimée avec succès avec tout partie prenante (si nécessaire).</li>
+                            <li>Appel de cas: Envoi de notifications</li>
+                        </ol>
+                        Scénario alternatif: <div class="tab">
+                            2a. L'administrateur décide de laisser le champs du court descriptif vide vu que c'est un champs optionnel.<br>
+                            2a.1 Le scénario continue par la suite à l'étape 3.
+                        </div></li>
+
+                    <li><br>
+                        <b>Nom: Ajouter des intérêts</b><br>
+                        But: Ajouter un champs d'intérêt dans la liste d'intérêts de recherche / sujet particuliers au système.<br>
+                        Acteurs principaux: Un professeur<br>
+                        Préconditions: Le professeur a un compte valide et est déjà authentifié dans le système.<br>
+                        Postconditions: Il y a un intérêt additionnel dans la base de données.<br>
+                        Scénario principal:<br>
+                        <ol>
+                            <li>Le professeur sélectionne l'option 3 - Gestion Intérêt.</li>
+                            <li>Le professeur sélectionne l'option 2 - Afficher un intérêt</li>
+                            <li>Si l'intérêt n'existe pas déjà dans le système, le professeur fait une requête pour l'ajouter à la liste.</li>
+                            <li>Le professeur confirme le changement.</li>
+                        </ol>
+                        Scénario alternatif:<div class="tab">
+                            1a. Le professeur veut d'abord vérifier si l'intérêt existe.<br>
+                            1a.1 Appel de cas: "Afficher la liste des intérêts". <br><br>
+                            3a. L'intérêt existe déjà.<br>
+                            3a.1 Le scénario se termine.</div>
+                    </li>
+
+                    <li><br>
+                        <b>Nom: Modifier des intérêts</b><br>
+                        But: Modifier un champs d'intérêt dans la liste d'intérêts de recherche / sujet particuliers au système.<br>
+                        Acteurs principaux: Un professeur<br>
+                        Préconditions: Le professeur a un compte valide et est déjà authentifié dans le système.<br>
+                        Postconditions: Il y a une modification dans la base de données au niveau de ce intérêt.<br>
+                        Scénario principal:<br><ol>
+                            <li>Le professeur sélectionne l'option 3 - Gestion Intérêt.</li>
+                            <li>Le professeur sélectionne l'option 2 - Modifier un intérêt</li>
+                            <li>Si l'intérêt existe dans le système, le professeur fait une requête pour le modifier.</li>
+                            <li>Le professeur confirme le changement.</li>
+                        </ol>
+                        Scénario alternatif:<div class="tab">
+                            1a. Le professeur veut d'abord trouver l'intérêt qu'il cherche à modifierexiste pas dans le système.<br>
+                            1a.1 Appel de cas: "Afficher la liste des intérêts". <br><br>
+                            3a. L'intérêt n'existe pas dans le système.<br>
+                            3a.1 Appel de cas: "Ajouter des intérêts" (si le professeur veut continuer)</div></li>
+                    <li><br>
+                        <b>Nom: Supprimer des intérêts</b><br>
+                        But: Enlever un champs d'intérêt dans la liste d'intérêts de recherche / sujet particuliers au système.<br>
+                        Acteurs principaux: Un professeur<br>
+                        Préconditions: Le professeur a un compte valide et est déjà authentifié dans le système.<br>
+                        Postconditions: Il y a un intérêt de moins dans la base de données.<br>
+                        Scénario principal:<br><ol>
+                            <li>Le professeur sélectionne l'option 3 - Gestion Intérêt.</li>
+                            <li>Le professeur sélectionne l'option 3 - Supprimer un intérêt</li>
+                            <li>Si l'intérêt existe dans le système, le professeur fait une requête pour supprimer l'intérêt de la liste.</li>
+                            <li>Le professeur confirme le changement.</li>
+                        </ol>
+                        Scénario alternatif:<div class="tab">
+                            1a. Le professeur veut d'abord vérifier si l'intérêt existe.<br>
+                            1a.1 Appel de cas: "Afficher la liste des intérêts". <br><br>
+                            3a. L'intérêt n'existe pas dans le système.<br>
+                            3a.1 Le scénario se termine.</div></li>
+                    <li><br>
+                        <b>Nom: Modification du compte pour chaque membre:</b><br>
+                            - Profil<br>
+                            - Activités souscrits<br>
+                            - Intérêts<br>
+                        But: un membre peut modifier toute les informations sur lui et sur ce qu,il aime sur l'application<br>
+                        Acteurs principaux: Membre (tout rôle confondu)<br>
+                        Préconditions: Un membre de statut actif et est déjà authentifié dans le système.<br>
+                        Postconditions: Modification des donneées de profil et activite.<br>
+                        Scénario principal:<br><ol>
+                            <li>Le membre utilise l'option Gestion Profil.</li>
+                            <li>Le membre utilise l'option modifier mon profil.</li>
+                            <li>Le membre choisi la categorie à modifier</li>
+                            <li>Le membre change les données.</li>
+                            <li>Le membre confirme tout changement</li></ol>
+                        Scénario alternatif:<div class="tab">
+                            4a. Si la categorie est les intérêts, il peut ajouter ou supprimer<br>
+                            4b. Si la categorie est les activités, il peut seulement en retirer<br>
+                            4c. Si le membre n'a pas d'activités souscrits</div></li>
+
+                    <li><br>
+                        <b>Nom: Lecture des notifications par les membres, visualisation de l'historique</b><br>
+                        But: Un membre souhaite se tenir à jour des changement récents des activités<br>
+                        Acteurs principaux: Un membre<br>
+                        Préconditions: Le membre a un compte valide dans le système et est authentifié<br>
+                        Postconditions: Le système n'est pas modifié<br>
+                        Scénario principal:<br><ol>
+                            <li>Le membre utilise l'option Notifications</li>
+                            <li>Le système affiche la liste des notifications. Chaque notification inclut:</li>
+                                - Le nom ou le titre de l'activité <br>
+                                - La date de l'action (création, modification ou supression) <br>
+                                - L'acteur de l'action <br>
+                                - Un court descriptif décrivant l'action <br>
+                            <li>Le système met enregistre les notifications comme lues.</li></ol>
+                        Scénario alternatif: <div class="tab">
+                        2a. Le membre n'a aucun notification.
+                        2a1. Le système affiche un message comme quoi il n'y a rien à afficher.
+                        2a2. Le scénario se termine.
+                        </div></li>
+
+                    <li><br>
+                        <b>Nom: Afficher la liste des intérêts</b><br>
+                        But: Voir la liste des champs d'intérêts de recherche/ de sujets particuliers pour pouvoir par la suite faire des modifications si nécessaire.<br>
+                        Acteurs principaux: Un professeur<br>
+                        Préconditions: Le professeur a un compte valide dans le système et est authentifié<br>
+                        Postconditions: Le système n'est pas modifié après le scénario. <br>
+                        Scénario principal:<br><ol>
+                        <li>Le professeur sélectionne l'option 3 - Gestion Intérêt.</li>
+                        <li>Le professeur sélectionne l'option 1 - Afficher tous les Intérêts des données générales</li>
+                        <li>Le système affiche la liste des intérêts dans le système. Les éléments suivants sont affichés pour chacun des intérêts:</li>
+                                - Titre<br>
+                                - Descriptif<br></ol>
+                        Scénario alternatif: <div class="tab">NA.</div></li>
+                    <li><br>
+                        <b>Nom: Envoi de notifications</b><br>
+                        But: Pour tout ajout, modification et supression sur un activité, qui doit avoir Publique comme visibilité, les membres souscrits recevoient un message à travers la plateforme leurs avisant des changements apportés. Il existe aussi la préférence des notifications par courriel.<br>
+                        Acteurs principaux: Un membre, un professeur ou un administrateur<br>
+                        Préconditions: Doit avoir tout juste complété soit un ajout, une modification ou une supression sur une activité et la visibilité de cette dernière doit être publique.<br>
+                        Postconditions: Notifications envoyés via la plateforme et par courriel pour ceux qui ont opté pour cette préférence.<br>
+                        Scénario principal:<br>
+                        <ol>
+                            <li>Le système envoit une notification dans la plateforme au sujet des changements apportés à tous les membres souscrits à l'activité en question, aux collaborateurs ainsi qu'au professeur responsable.</li>
+                            <li>Pour ceux qui ont opté pour cette préférence, les membres recoivent aussi une notification par courriel.</li>
+                        </ol>
+                        Scénario alternatif: <div class="tab">NA.</div>
+                    </li>
+
+                </ol>    
+            </section>
+
+            <section><br><br><br>
+                <h2 id="analysis" class="section-title">Analyse</h2><br>
+                <br>
+                <p>Notre analyse préliminaire nous a permis d'élucider les besoins et risques suivants...</p>
+                <div>
+                    <h3>Risques</h3>
+                    <ol class="risks">
+                        <li>Perte des données
+                            <p>Il pourrait avoir un incendie dans l'immeuble où sont stockées les données ou tout autre problème qui rendrait les données sur les disques durs innaccessibles. Il faudrait alors entrer à nouveau l'information et l'historique des modifications serait perdu.</p>
+                        </li>
+                        <li>Serveur crash et n'est plus responsif.
+                            <p>Une panne de courant ou d'autres problèmes liés à l'alimentation en énergie des serveurs pourrait causer une inactivité du système. Les clients ne seraient plus capable d'intéragir avec celui-ci.</p>
+                        </li>
+                        <li> La connexion réseau du serveur est instable et/ou le serveur est injoignable
+                            <p>Un problème avec le fournisseur internet ou la carte du réseau pourrait rendre le serveur non joignable. Les clients ne seraient plus capable d'intéragir avec celui-ci.</p>
+                        </li>
+                        <li> Un utilisateur (administrateur compris) perd son mot de passe
+                            <p>Le membre n'a plus accès a son compte.</p>
+                        </li>
+                        <li> Un utilisateur se fait voler son mot de passe
+                            <p>Les données privées de l'utilisateur sont alors compromises. Si l'utilisateur est un professeur ou un administrateur, une plus grande partie du système est compromise (gestion des intérêts et des membres).</p>
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Exigences non-fonctionnelles</h3>
+                    <ul class="nf-requirements">
+                        <li>Utilisabilité
+                            <p>Lisible et rapide: Affichage des actions possibles dans le logiciel simple. Possibilité de faire des retours de page.</p>
+                        </li>
+                        <li>Fiabilité
+                            <p>Les données devront être persistées quelque part (ex. base de données sur le serveur web)</p>
+                        </li>
+                        <li>Performance</li>
+                            <ul>
+                            <p><li>Système de notifications en temps réel : une connexion en continue entre le client et le serveur ou un questionnement périodique du client est nécessaire.</li>
+                            <li>Le temps de réponse du serveur qui répond aux requêtes : doit être moins d'une seconde.</li>
+                            <li>Le système devra être accessible 24/7 (99.9% du temps).</li>
+                            <li>Les échanges entre le client et le serveur sont signés et encryptés puisque les données sont privées.</li>
+                            <li>Les membres s'authentifient avec un mot de passe.</li></p>
+                        </ul>
+                        <li>Maintenabilité
+                            <p>Doit nécessiter peu de maintenance puisque l'activité principale est la recherche.</p>
+                        </li>
+                        <li>Implémentation
+                            <ul>
+                            <p><li>Développé en Java.</li>
+                                <li>Objet orienté (pour la maintenabilité)</li>
+                            </p>
+                            </ul>
+                        </li>
+                        <li>Interface 
+                            <p>Interface en ligne de commandes.</p>
+                        </li>
+                        <li>Opération
+                            <p>Administrateur doit être informé d'une nouvelle inscription</p>
+                        </li>
+                        <li>Packaging
+                            <p>L'application doit être distribuée sur quel OS ?</p>
+                        </li>
+                        <li>Légal
+                            <p>Comme c'est un outil privé, il n'y a pas d'enjeu ici.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Matériels nécessaires</h3>
+                    <p>Description et justification des besoins matériels du projet...</p>
+                    <ul class="nf-requirements">                        
+                        <li>Selon notre hypothèse, le client a certainement deja un serveur. Si ce serveur n'est pas disponible, il en faudra un.</li>
+                        <li>10 Go suffiront pour conserver les données de Roundtable sur le serveur</li>
+                        <li>Au moins 2 cpu sur le serveur</li>
+                        <li>4 à 8 Go de mémoire pour la base de données</li>                        
+                        <li>Il est nécessaire d'avoir un moyen de distribuer l'application client (qui communique avec le serveur). Cela peut probablement être fait à travers Discord ou une clée USB échangée lors des rencontres du vendredi.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contraintes</h3>
+                    <p>
+                        Les données sont sauvegardées sur le serveur dans une base de données relationnelle.
+                        Ces données doivent être accessibles du moment qu'internet est accessible. Étant donné
+                        que le groupe GEODES n'a pas plus de quelques dizaines de membres, il n'y a pas 
+                        d'enjeu de mise à l'échelle. Une connexion fiable à internet sera toutefois nécessaire
+                        pour assurer un service continu.
+                    </p>
+                    <p>
+                        Le client a seulement l'application client sur son ordinateur. Celle-ci ne sauvegarde aucune donnée sur l'ordinateur du client.
+                    </p>
+                </div>
+                <div>
+                    <h3>Présentation de nos classes selon le modèle d'objet</h3>
+                    <p>Nos classes d'entités incluent:</p>
+                        <ul class="nf-requirements">                        
+                            <li>Activité, une classe abstraite</li>
+                            <li>Article, une sous-classe d'Activité</li>
+                            <li>Outil, une sous-classe d'Activité</li>
+                            <li>Projet, une sous-classe d'Activité</li>
+                            <li>Intéret</li>
+                            <li>Role</li>
+                            <li>Membre</li>
+                        </ul>
+                    <p>Nos classes d'interfaces incluent:</p>
+                        <ul class="nf-requirements">                        
+                            <li>InterfaceAdmin</li>
+                            <li>InterfaceMembre</li>
+                            <li>InterfaceProfesseur</li>
+                        </ul>
+                    <p>Nos classes de controle incluent:</p>
+                        <ul class="nf-requirements">                        
+                            <li>ControleurInteret</li>
+                            <li>ControleurMainLoop</li>
+                            <li>ControleurMembre</li>
+                            <li>ControleurArticle</li>
+                            <li>ControleurOutil</li>
+                            <li>ControleurProjet</li>
+                        </ul>
+                </div>
+                <div>
+                    <h3>Modèle dynamique</h3>
+                    <p>Voici les diagrammes d'activités selon le modèle dynamique:</p>
+                    <p>Authentification:</p>
+                    <img class="case" src="./images/DA-Authentification.png" alt=""><br>
+                    <p>Boucle principale:</p>
+                    <img class="case" src="./images/DA-Boucle-Principale.png" alt=""><br>
+                    <p>Création et modification d'activités:</p>
+                    <img class="case" src="./images/DA-Création et Modification d'Activités.png" alt=""><br>
+                    <p>Création d'un membre:</p>
+                    <img class="case" src="./images/DA-Création-membre.png" alt=""><br>
+                    <p>Modification du compte (le profil):</p>
+                    <img class="case" src="./images/DA-ModificationCompte.png" alt=""><br>
+                    <p>Trouver les membres et les activités:</p>
+                    <img class="case" src="./images/DA-Trouver-Membres-et-Activites.png" alt=""><br>
+                    <p>Lecture de notifications:</p>
+                    <img class="case" src="./images/DA-Notification.png" alt=""><br>
+                </div>
+            </section>
+
+            <section><br><br><br>
+                <h2 id="conception" class="section-title">Conception</h2><br>
+                <br>
+                <div>
+                    <h3>Justifications du design</h3>
+                    <p>
+                        Nous avons adopté une architecture MVC (Model-View-Controller) pour le prototype livré. Le code est donc découpé en 3 modules :</p>
+                        <ul>
+                            <li>Entite : Contient les classe d'entité</li>
+                            <li>Controleur : Conteient les classes de contrôle.</li>
+                            <li>Interface : Donne accès aux différents controlleurs, selon le rôle de l'utilisateur.</li>
+                        </ul>
+                    
+                    <p>Comme les controleurs et les interfaces sont uniques, les méthodes et attributs de ses classes
+                        sont statiques. Ceci n'est pas un gros enjeux puisqu'il serait simple de changer le tout pour 
+                        des méthodes et attributs d'instance.
+                    </p>
+                    <p> Au niveau des entitées, plus particulièrement des activités, comme celles-ci ont des attributs
+                        en commun, elles héritent de la classe abstraite Activite. Ainsi, si on voulait supporter un nouveau
+                        type d'activité (comme les événements du GEODES), on pourrait recycler cette classe. 
+                    </p>
+                    <p> Finalement, pour être pleinement MVC, il faudrait que les classes de contrôleurs n'intéragissent
+                        pas avec les entrées d'informations et l'affichage à l'écran. Nous en sommes conscient, cela pourrait
+                        être peaufiné au cours de la prochaine itération.
+                    </p>
+                    <p> Sinon, en ce qui concerne les notifications par courriel pour les activités souscrits, nous avons choisi qu'au niveau de la création d'un compte, par défault,
+                        les membres recevoient les notifications uniquement dans la plateforme Roundtable. Si les membres désirents recevoir la version par courriel, ils peuvent opter
+                        pour cela via la page de Gestion de Profil.
+                    </p>
+                    <p> En ce qui concerne les courts descriptifs d'un membre peut écrire quand il fait une action sur une activité, nous avons décidé que le système offre l'option d'ajouter le descriptif
+                        uniquement au moment de la modification ou la suppression d'une activité, ou pour le refut d'un article. Nous trouvons qu'il n'est pas nécessaire d'ajouter un descriptif au moment de l'ajout d'une activité.
+                    </p>
+                </div>
+                <div>
+                    <h3>Diagramme de classes</h3>
+                    <img width="1300" height="auto" src="./images/DiagrammeClasse.png" alt=""><br>
+                </div>
+                <div>
+                    <h3>Diagrammes de séquence</h3>
+                    
+                    <p>Rechercher un article et afficher la fiche complète</p>
+                    <img width="1200" height="auto"  src="./images/DS-recherche-article.png" alt=""><br>
+                    <p>Afficher la liste des activités associées à un intérêt</p>
+                    <img width="1200" height="auto"  src="./images/DS-liste-activites.png" alt=""><br>
+                    <p>Modifier le statut d'un article</p>
+                    <img width="1200" height="auto"  src="./images/DS-modif statut.png" alt=""><br>
+                </div>
+            </section>
+
+            <section><br><br><br>
+                <h2 id="prototype" class="section-title">Prototype</h2><br>
+                <ul class="bare-list previews">
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Menu principal</h4> 
+                        <img class="preview-img" src="./images/proto1.png" alt="">
+                        Une fois authentifié, l'utilisateur se rend au menu principal auquel il peut choisir des options (par exemple, Notification pour lire la liste des notifications reçus, ou encore gestion Profil pour y mettre à jour.)
+                    </li>
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Profil de l'utilisateur</h4> 
+                        <img class="preview-img" src="./images/proto2.png" alt="">
+                        Dans la page de profil, un utilisateur peut voir son nom, ses coordonnés, son titre, ses intérêts, ses récentes publications ainsi de suite.
+                    </li>
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Gestion des membres</h4> 
+                        <img class="preview-img" src="./images/proto3.png" alt="">
+                        Un administrateur utilise la vue Gestion Membre pour changer le statut d'un compte (réactiver, suspendre) ou assigner un rôle à un compte (e.g. un nouveau utilisateur doit être changé de Membre vers Professeur comme rôle.)
+                    </li>
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Gestion des intérêts</h4> 
+                        <img class="preview-img" src="./images/proto4.png" alt="">
+                        Seul un professeur, une fois connecté, peut avoir accès à Gestion Intérêts pour y voir la liste des intérêts, les modifiers, en ajouter ou en supprimer.
+                    </li>
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Afficher la liste des projets</h4> 
+                        <img class="preview-img" src="./images/proto5.png" alt="">
+                        Ceci est une requête qui retourne la liste des projets dans le système.
+                    </li>
+
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Lecture de notification</h4> 
+                        <img class="preview-img" src="./images/proto6.png" alt="">
+                        Ceci est une requête qui retourne la liste des notifications qu'un membre a.
+                    </li>
+
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Approuver un acticle</h4> 
+                        <img class="preview-img" src="./images/proto7.png" alt="">
+                        Seul un professeur, une fois connecté, peut approuver un article.
+                    </li>
+
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Création d'un compte</h4> 
+                        <img class="preview-img" src="./images/proto8.png" alt="">
+                        Un utilisateur entre ses informations et demande la création d'un compte dans la plateforme.
+                    </li>
+
+                    <li class="preview">
+                        <h4 style="font-size: 1.2em; margin-bottom: 6px">Approuver un nouveau compte</h4> 
+                        <img class="preview-img" src="./images/proto9.png" alt="">
+                        Un administrateur peut approuver le compte d'un nouveau utilisateur de la plateforme.
+                    </li>
+                
+            </ul></section>
+        
+    </main>
+    <footer class="report-footer">
+        <p style="color:ghostwhite">IFT 2255 - Équipe Hobbits - Été 2022</p>
+        <p>
+            <a class="link report-footer__link" href="https://github.com/Linda0410/HobbitsDevoirs.git"> Lien vers répertoire GitHub</a></p>
+        <p>
+           <a class="link report-footer__link" href="https://drive.google.com/drive/folders/1vTOKhYWS_oqHx42OZMJsoyWSeCKeSqaC?usp=sharing">Lien vers ressource externe (fichiers VPP)</a></p>
+    </footer>
+
+</body>
+    </html>

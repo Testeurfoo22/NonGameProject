@@ -1,0 +1,74 @@
+/*Style pour DivLogin*/
+
+.divLogin{
+    letter-spacing: normal;
+    height: auto;
+    width: auto;
+    padding-top: 138px;
+    padding-bottom: 143px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.login{
+    display: table;
+    margin: auto;
+    background-color: white;
+    max-width: 750px;
+}
+.login label{
+    color: black;
+}
+.login p{
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.form{
+    padding: 12px 0px;
+}
+.text{
+    width: 725px;
+    height: 25px;
+    max-width: 725px;
+    border: 1px solid #ecf1f7;
+    padding: .7rem 1rem .75rem;
+    font-size: 16px;
+}
+
+.submit{
+    font-size: 16px;
+    color: #fff;
+    background-color: #4769d8;
+    border: 1px solid #4769d8;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 14px 30px 13px;
+    margin: 5px 0px;
+}
+.submit:hover{
+    background-color: #2e54d3;
+    transition: background-color 0.1s linear;
+}
+
+#specialafter{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+#specialafter2{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+
+.specialBleu{
+    color: #4769d8;
+    text-decoration: underline;
+}
+.specialBleu:hover{
+    text-decoration: none;
+    color: #4769d8;
+}

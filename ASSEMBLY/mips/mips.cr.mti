@@ -1,0 +1,154 @@
+C:/Users/hadri/Desktop/mips/filesInit/regfile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/regfile.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity regfile
+-- Compiling architecture behave of regfile
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity testbench
+-- Compiling architecture test of testbench
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity adder
+-- Compiling architecture behave of adder
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/mips.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/mips.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mips
+-- Compiling architecture test of mips
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/signext.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/signext.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity signext
+-- Compiling architecture behave of signext
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controller
+-- Compiling architecture struct of controller
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/proc_mips.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/proc_mips.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity proc_mips
+-- Compiling architecture struct of proc_mips
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/mux2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture behave of mux2
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/mux4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/mux4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4
+-- Compiling architecture behave of mux4
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/aludec.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/aludec.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity aludec
+-- Compiling architecture behave of aludec
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity datapath
+-- Compiling architecture struct of datapath
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/imem.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/imem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity imem
+-- Compiling architecture behave of imem
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/maindec.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/maindec.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity maindec
+-- Compiling architecture behave of maindec
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/sl2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/sl2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sl2
+-- Compiling architecture behave of sl2
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alu
+-- Compiling architecture behave of alu
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/flopr.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/flopr.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity flopr
+-- Compiling architecture asynchronous of flopr
+
+} {} {}} C:/Users/hadri/Desktop/mips/filesInit/dmem.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/hadri/Desktop/mips/filesInit/dmem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity dmem
+-- Compiling architecture behave of dmem
+
+} {} {}}

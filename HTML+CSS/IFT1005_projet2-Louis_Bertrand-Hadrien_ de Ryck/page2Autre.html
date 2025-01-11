@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--de Ryck Hadrien-->
+<!--Louis Bertrand-->
+<html lang="fr">
+	<head>
+		<title>Blog Page2</title>
+        <link rel="icon" type="image/svg" href="image/tardis.svg" />
+        <link rel="stylesheet" href="dossier_css/navBar.css" />
+        <link rel="stylesheet" href="dossier_css/pageAutre.css" />
+        <link rel="stylesheet" href="dossier_css/CV.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <div class="parallax">
+            <div class="navBar">
+                <div class="navRight">
+                    <p><a href="pageLogIn.html">Modification</a></p>
+                </div>
+                <div class="navMiddle">
+                    <p><a href="CVWho.html">Le Docteur</a></p>
+                    <img src="image/tardis.svg" alt="tardis">
+                    <p><a href="page1Autre.html">Ses Compagnons</a></p>
+                </div>
+            </div>
+            <div class="informationGen">
+                <div class="imageProfil">
+                    <img id="portraitDocteur" alt="portrait" src="image/Docteur/img1.jpg">
+                </div>
+
+                <p><h2>Nom :</h2><br>Inconnu<br>
+                <p><h2>Age :</h2><br>environ 45000000000<br>
+                <p><h2>Surnom :</h2><br>Le Docteur<br>
+                <p><h2>Adresse :</h2><br>En soit, Sans Domicile Fixe<br>
+                <p><h2>Email :</h2><a href="mailto:WibblyWobblyTimeyWimey@gmail.com"><br>WibblyWobblyTimeyWimey</a><br>
+                <p><h2>Telephone :</h2><br>07700 900461<br>
+                <p><h2>LinkedIn: :</h2><br><a href="#">www.linkedin.com</a><br>
+            </div>
+            <div class="blog">
+                <div class="citation">
+                    <pre id="citation"></pre>
+                    <p class="link" id="docteur"></p>
+                </div>
+
+                <div class="imageBlogLeft" id="img1" style="background-image: url('image/Dalek/img1.jpg');">
+                    <button class="leftEm" onclick="infImg('img1')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                    <button class="rightEm" onclick="supImg('img1')"><em class="fa fa-chevron-right fa-2x"></em></button>
+                </div>
+                <div class="textBlogRight">
+                    <h1>Le Dalek</h1>
+                    <p>Ni plus, ni moins qu'une machine de guerre, Terminator aurait peur devant un dalek.
+                        Mais à défaut d'etre la pire espèce de destruction massique de l'univers.
+                        Considérés comme le pire ennemi du docteur, les Daleks sont l'un des emblèmes de l'univers du Docteur.
+                    </p>
+                    <p class="link"><strong><button onclick="openText('info1')">Venez rencontrer la Pire espece.</button></strong></p>
+                </div>
+    
+                <div class="textBlogLeft">
+                    <h1>Missy, le Maitre</h1>
+                    <p>
+                        Missy, la pire ennemie du docteur, attendez, les daleks sont déjà ses pires ennemis. Alors considérons Missy comme sa meilleure ennemie? 
+                        Dame du temps et connaissance de très longue date, leurs relations sont plus fortes que le chat et la souris.
+                    </p>
+                    <p class="link"><strong><button onclick="openText('info2')">Venez Apprendre d'avantage sur notre... Ami?.</button></strong></p>
+                </div>
+                <div class="imageBlogRight" id="img2" style="background-image: url('image/Missy/img1.jpg');">
+                    <button class="leftEm" onclick="infImg('img2')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                    <button class="rightEm" onclick="supImg('img2')"><em class="fa fa-chevron-right fa-2x"></em></button>
+                </div>
+    
+                <div class="imageBlogLeft" id="img3" style="background-image: url('image/River\ Song/img1.jpg');">
+                    <button class="leftEm" onclick="infImg('img3')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                    <button class="rightEm" onclick="supImg('img3')"><em class="fa fa-chevron-right fa-2x"></em></button>
+                </div>
+                <div class="textBlogRight">
+                    <h1>River Song</h1>
+                    <p>Qui est-ce, vous ne a connaissez pas? je vous presente la compagne du docteur, sa femme, RiverSong. Mi-humaine, mi-Dame du temps.
+                        cette archeologue a tout pour vous plaire, si et seulement si elle essaye pas de vous manipuler ou de vous tuer.
+                    </p>
+                    <p class="link"><strong><button onclick="openText('info3')">Dites bonjour a un mystere en une personne.</button></strong></p>
+                </div>
+            </div>
+            <div class="blog info1" id="info1" style="z-index: -1;">
+                <button class="close" onclick="closeText('info1')"><em class="fa fa-times fa-2x"></em></button>
+                <button class="leftEm" onclick="mouvText('info1')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                <div class="text">
+                    <p class="classe1" id="info1Classe1" style="opacity: 1;">Les Daleks, espèces guerrière meurtrière, coupable des pires tueries du monde, 
+                        ces êtres mi-vivant mi-Robot, ces monstres de guerres proviennent de la planète skaro, et sont sous le commandement de davros, 
+                        un vivant scientifique pourvue de folie meurtrière. Les êtres vivants conduisant les boites de conserve Disco leurs servant de 
+                        moyen de transport ressembles à des pieuvres atrophiés cyclopes. Immortel sur les bords, lors qu’ils sont plus aptes à se battre, 
+                        ils sont utilisés comme fondation pour la planète. Se sont les pires ennemis du docteur, adversaire des seigneurs du temps lors de 
+                        la guerre du temps, ils sont à l’origine des massacres conséquents de seigneurs du temps. 
+                    </p>
+                    <p class="classe2" id="info1Classe2" style="opacity: 0;">Ils cherchent à exterminer tout sur leurs 
+                        passages, avec comme mission principale « exterminer le docteur » le dernier seigneur du temps. Ils sont incapables de pensée positives, 
+                        aucune pitié, enfin presque, mais aucune amitié, que de la folie meurtrière. Ils perdent souvent face au docteur, cependant ils arrivent 
+                        toujours à revenir dans une forme plus évoluée, mais a quoi bon, pour finir comme moyen de survie de notre bon davros.
+                    </p>
+                </div>
+                <button class="rightEm" onclick="mouvText('info1')"><em class="fa fa-chevron-right fa-2x"></em></button>
+            </div>
+            <div class="blog info2" id="info2" style="z-index: -1;">
+                <button class="close" onclick="closeText('info2')"><em class="fa fa-times fa-2x"></em></button>
+                <button class="leftEm" onclick="mouvText('info2')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                <div class="text">
+                    <p class="classe1" id="info2Classe1" style="opacity: 1;">Missy, Le Maitre, c’est comme vous voulez. Cet étrange personnage haut en couleur, 
+                        et en folie est un seigneur du temps, plus récemment une dame du temps, est une très longue connaissance du docteur, datant bien n’avant 
+                        de la destruction de Gallifrey. Il est extrêmement intelligent comme le Docteur, capable même de le manipuler, tout en restant raisonnable, 
+                        on peut les comparer avec Moriarty et Sherlock, cependant, contrairement à Holmes, le docteur et le maitre entretiennent aussi une forme 
+                        d’amitié, de très longue date. On voit souvent le Maitre essayant de s’emparer de la Terre, terre de prédilection du docteur. Créant des 
+                        contentieux énormes parmi les 2, mais on a pu les voir coopérant, comme lors de la capture du docteur par les Daleks.
+                    </p>
+                    <p class="classe2" id="info2Classe2" style="opacity: 0;">On voit même ici 
+                        une Missi inquiète (dans un sens) de son « ami », allant jusqu’à le sauver. Cependant n’oublions pas sa fourberie, essayer de faire en 
+                        sorte que le docteur tue Clara Oswald sous une coquille Daleks. On sait aussi qu’elle est la raison de la mise en lien entre le Docteur 
+                        et Clara, et accessoirement involontairement coupable de la mort de désespoir Humain de cette dernière en Tuant son petit ami, lors de 
+                        sa conquête de la Terre avec la nécrophere. Missy, sous son ancienne incarnation quand a lui, est coupable de la mort de Bill Potts 
+                        transformé en CyberMan, dernier compagnon du 12th docteur, créant sa perte.
+                    </p>
+                </div>
+                <button class="rightEm" onclick="mouvText('info2')"><em class="fa fa-chevron-right fa-2x"></em></button>
+            </div>
+            <div class="blog info3" id="info3" style="z-index: -1;">
+                <button class="close" onclick="closeText('info3')"><em class="fa fa-times fa-2x"></em></button>
+                <button class="leftEm" onclick="mouvText('info3')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                <div class="text">
+                    <p class="classe1" id="info3Classe1" style="opacity: 1;">River Song, née Melody Pond, est la Fille de Amy Pond et Rory Williams, 2 compagnons du 11th et 
+                        accessoirement l’épouse de ce dernier et du 12th, Comment ? vive les voyages dans le temps, on évite la case prison, 
+                        même si elle y est passé, pourquoi ? Pour avoir assassiné le docteur… Compliqué. River Song est une Dame du temps, enfin pas totalement, 
+                        elle est mi-Humaine, mi-Dame du temps, après avoir été fécondée au sein même du Tardis, officiellement c’est une archéologue du 51éme siècle, 
+                        premièrement amicale et Morte, avec le 10th docteur. On assiste à sa naissance plus que dangereuse au côté du 11th, cependant enlevé et éduqué 
+                        pour tuer ce dernier, elle devient une antagoniste, cherchant a tuer le docteur sur le compte du silence.
+                    </p>
+                    <p class="classe2" id="info3Classe2" style="opacity: 0;">Après avoir surpasser la mort vue et 
+                        assisté par Rory, Amy et le docteur ? elle devient un allié de choix, très intelligente, voir plus que le docteur dans ses folies, elle est aussi 
+                        très forte. On la reverra bien plus tard avec le 12th pour une dernière rencontre en Mari et Femme.
+                    </p>
+                </div>
+                <button class="rightEm" onclick="mouvText('info3')"><em class="fa fa-chevron-right fa-2x"></em></button>
+            </div>
+            <div class="page">
+                <a href="page1Autre.html"><p>1</p></a>
+                <a href="#"><p>2</p></a>
+            </div>
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>

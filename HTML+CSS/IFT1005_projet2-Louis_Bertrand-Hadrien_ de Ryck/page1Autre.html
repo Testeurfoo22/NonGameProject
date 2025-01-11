@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--de Ryck Hadrien-->
+<!--Louis Bertrand-->
+<html lang="fr">
+	<head>
+		<title>Blog Page1</title>
+        <link rel="icon" type="image/svg" href="image/tardis.svg" />
+        <link rel="stylesheet" href="dossier_css/navBar.css" />
+        <link rel="stylesheet" href="dossier_css/pageAutre.css" />
+        <link rel="stylesheet" href="dossier_css/CV.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <div class="parallax">
+            <div class="navBar">
+                <div class="navRight">
+                    <p><a href="pageLogIn.html">Modification</a></p>
+                </div>
+                <div class="navMiddle">
+                    <p><a href="CVWho.html">Le Docteur</a></p>
+                    <img src="image/tardis.svg" alt="tardis">
+                    <p><a href="#">Ses Compagnons</a></p>
+                </div>
+            </div>
+            <div class="informationGen">
+                <div class="imageProfil">
+                    <img id="portraitDocteur" alt="portrait" src="image/Docteur/img1.jpg">
+                </div>
+
+                <h2>Nom :</h2><br>Inconnu<br>
+                <h2>Age :</h2><br>environ 45000000000<br>
+                <h2>Surnom :</h2><br>Le Docteur<br>
+                <h2>Adresse :</h2><br>En soit, Sans Domicile Fixe<br>
+                <h2>Email :</h2><a href="mailto:WibblyWobblyTimeyWimey@gmail.com"><br>WibblyWobblyTimeyWimey</a><br>
+                <h2>Telephone :</h2><br>07700 900461<br>
+                <h2>LinkedIn: :</h2><br><a href="#">www.linkedin.com</a><br>
+            </div>
+            <div class="blog">
+                <div class="citation">
+                    <pre id="citation"></pre>
+                    <p class="link" id="docteur"></p>
+                </div>
+
+                <div class="imageBlogLeft" id="img1" style="background-image: url('image/Tournevis\ Sonic/img1.jpg');">
+                    <button class="leftEm" onclick="infImg('img1')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                    <button class="rightEm" onclick="supImg('img1')"><em class="fa fa-chevron-right fa-2x"></em></button>
+                </div>
+                <div class="textBlogRight">
+                    <h1>Le Tournevis Sonic / sonic ScrewDriver</h1>
+                    <p>Aussi étrange qu'il n'y paraît, ce n'est pas un tournevis, encore moins un tournevis plat ou cruciforme,
+                        on pourrait comparer cela à une baguette magique, ou a des lunettes? car oui il y a eu un tournevis sonic 
+                        type lunette. mais cette merveille, adoré par le docteur est le meilleur ami de chacun, lors de moments sans issue.
+                    </p>
+                    <p class="link"><strong><button onclick="openText('info1')">Venez Voir pourquoi.</button></strong></p>
+                </div>
+    
+                <div class="textBlogLeft">
+                    <h1>La Police Box alias Le Tardis</h1>
+                    <p>Qui voudrait voyager dans une boîte Anglaise de Police, à première vue personne, c'est petit et, accessoirement, 
+                        on ne peut pas voyager dedans. M'enfin c'est sans compté le Docteur, qui a reussi à en faire l'un des moyens de 
+                        transport perféré des gens, surtout desWhovians. 
+                    </p>
+                    <p class="link"><strong><button onclick="openText('info2')">Venez Apprendre d'avantage sur notre Ami.</button></strong></p>
+                </div>
+                <div class="imageBlogRight" id="img2" style="background-image: url('image/Tardis/img1.jpg');">
+                    <button class="leftEm" onclick="infImg('img2')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                    <button class="rightEm" onclick="supImg('img2')"><em class="fa fa-chevron-right fa-2x"></em></button>
+                </div>
+    
+                <div class="imageBlogLeft" id="img3" style="background-image: url('image/Gallifrey/img1.jpg');">
+                    <button class="leftEm" onclick="infImg('img3')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                    <button class="rightEm" onclick="supImg('img3')"><em class="fa fa-chevron-right fa-2x"></em></button>
+                </div>
+                <div class="textBlogRight">
+                    <h1>La Planète Gallifrey</h1>
+                    <p>Halte, qui va la!. Ici les seigneurs du temps, les Da...  </p>
+                    <p>Dites Bonjour à Gallifrey la planète d'origine du Docteur, situé sur la constellation de Katerborous, a 29000 ans/lumière, 
+                        bon sang c'est loin.Là-bas, ce n'est as comme chez nous, un Sahara montagneux géant recouvre la planète. Et des seigneurs du temps. 10-0-11-0-0.0-2
+                    </p>
+                    <p class="link"><strong><button onclick="openText('info3')">Venez Rencontrer une Nouvelle Civilisation.</button></strong></p>
+                </div>
+            </div>
+            <div class="blog info1" id="info1" style="z-index: -1;">
+                <button class="close" onclick="closeText('info1')"><em class="fa fa-times fa-2x"></em></button>
+                <button class="leftEm" onclick="mouvText('info1')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                <div class="text">
+                    <p class="classe1" id="info1Classe1" style="opacity: 1;">Dans la forme, le Tournevis Sonic n’est a proprement parlé pas un tournevis, on pourrait comparer ce magnifique 
+                        outil a une baguette magique sur le docteur possède. Capable de Tout, sa seule faiblesse c’est le bois. Dommage, mais bon de nos jours, ou plus ou moins dans le 
+                        futur, le bois n’est pas vraiment d’actualité. Comme dit précédemment, le tournevis Sonic est lié au docteur, mais comment, pour faire simple, il est lié au tardis, 
+                        ainsi le docteur peut contrôler, dans la mesure du raisonnable, la boite bleue. Mais notre ami ici présent a d’autre fonctionnalité incroyable, comme visser ou 
+                        dévisser (oui comme un tournevis), mais peut aussi ouvrir des serrures, complexes mais attention. Peut manipuler des vortex, brule et coupe à peu près tout et 
+                        n’importe quoi, analyse toute donnée et les transferts au Tardis.
+                    </p>
+                    <p class="classe2" id="info1Classe2" style="opacity: 0;"> Emet des ultrasons, bon sang c’est un couteau suisse. Mais le plus Important, c’est la capacité 
+                        lampe de Poche. Ce petit Outil a pour capaciter de changer de forme, principalement lors de la recréation de ce dernier par le Tardis, 
+                        on a même pu en voir un en style lunette de soleil. On peut remercier le 12th docteur.
+                        Aujourd’hui, le tournevis est considéré comme une arme incroyable, elle permet a 90% du temps de sortir d’un moment a problème. A quel point qu’a un moment, il a disparu des radars. 
+                        Cependant, a partir du 9th Docteur, le tournevis fait partie integrante de d'univers 
+                    </p>
+                </div>
+                <button class="rightEm" onclick="mouvText('info1')"><em class="fa fa-chevron-right fa-2x"></em></button>
+            </div>
+            <div class="blog info2" id="info2" style="z-index: -1;">
+                <button class="close" onclick="closeText('info2')"><em class="fa fa-times fa-2x"></em></button>
+                <button class="leftEm" onclick="mouvText('info2')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                <div class="text">
+                    <p class="classe1" id="info2Classe1" style="opacity: 1;">Abrégé, TARDIS, signifiant « Time And Relative Dimension In Space » 
+                        ou « Temps A Relativité Inter-Dimensionnelle » (Et oui ça marche en Français), la machine a voyagé dans le temps et l’espace 
+                        du docteur est unique en son genre. Un modèle Type 40 Mark II vétuste, obsolète et normalement non apte aux voyages a été volé 
+                        par le Docteur avant sa fuite de Gallifrey., matérialisé en Police Box Anglaise, elle suit le Docteur dans toutes ses Aventures 
+                        dans le temps, on apprend plus tard que le Tardis a une âme, une âme liée au docteur, et que dans un sens, le Tardis n’a pas été 
+                        volé, mais que le Tardis, a participé au « Vol » On considère ainsi la Tardis comme mi-Vivant, mi-Machine, un genre d’hybride 
+                        étrange. Son intérieur, et ce qui fait sa force, est considéré comme infini, généralement on peut voir les visiteurs qui entrent 
+                        dans la boite dire « c’est plus grand à l’intérieur qu’a l’extérieur. » 
+                    </p>
+                    <p class="classe2" id="info2Classe2" style="opacity: 0;">un petit system de compression dimensionnelle permettant 
+                        de mettre un vaisseau limite infini dans une boite d’1 m^2 tout ça pour un poids modeste. Compression dimensionnelle appelé aussi 
+                        notion de Tardis. 
+                        Le Tardis est source de pouvoir, et grand nombre essaye de s’en emparer, ou de le détruire, comme par exemples nos amis les Daleks, 
+                        sans succès. 
+                        Cependant, La police Box, possédant une âme, se permet de faire ce qu’elle veut, comme aller dans des endroits non voulus, ou il y 
+                        a du danger, et des Hommes à sauver.
+                    </p>
+                </div>
+                <button class="rightEm" onclick="mouvText('info2')"><em class="fa fa-chevron-right fa-2x"></em></button>
+            </div>
+            <div class="blog info3" id="info3" style="z-index: -1;">
+                <button class="close" onclick="closeText('info3')"><em class="fa fa-times fa-2x"></em></button>
+                <button class="leftEm" onclick="mouvText('info3')"><em class="fa fa-chevron-left fa-2x"></em></button>
+                <div class="text">
+                    <p class="classe1" id="info3Classe1" style="opacity: 1;">Gallifrey, planète « origine » du Docteur, positionné dans la 
+                        Constellation de Katerborous, situé a 29000 an/lumière de la Terre. Supposé détruite par le Docteur lors de la 
+                        Guerre du Temps, on apprendra plus tard que le War Docteur, le docteur présent pendant la guerre n’a pas détruit 
+                        la planète afin de détruite tout les Daleks a l’assaut, mais avec l’aide du 11th et du 10th, et après coup les 12 
+                        docteurs, ont envoyé toute la planète dans un univers parallèle. Son existence est toute l’intrigue d’une partie 
+                        de la vie du 12th cherchant tant que mal les coordonnés de sa planète natale.
+                        Soit dit en passant, ses coordonnées sont 10-0-11-0-0.0-2  .    
+                        Autour de la planète, on retrouve 2 soleils et 1 lune, et sur ce decors desertique tel un sahara geant, on trouve 
+                        la cité des seigneurs du temps, population locale, contrôlant le temps comme personne, createur des « Tardis », et 
+                        ayant la possibilité de se régénérer.
+                    </p>
+                    <p class="classe2" id="info3Classe2" style="opacity: 0;">Cependant on apprend plus tard, que leurs regeneration ne vient pas d’eux 
+                        mais du docteur, qui vient d’une espece inconnue, ils ont acquis la possibilité de se régénérer après avoir ingeré 
+                        du sang du docteur.
+                    </p>
+                </div>
+                <button class="rightEm" onclick="mouvText('info3')"><em class="fa fa-chevron-right fa-2x"></em></button>
+            </div>
+            <div class="page">
+                <a href="#"><p>1</p></a>
+                <a href="page2Autre.html"><p>2</p></a>
+            </div>
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>

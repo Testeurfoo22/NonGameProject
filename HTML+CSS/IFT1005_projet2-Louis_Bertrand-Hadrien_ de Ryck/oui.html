@@ -1,0 +1,87 @@
+<!DOctype html>
+<html lang="en">
+
+<head>
+    <meta carset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function affCalories(){
+
+            var nombreCal = 0;
+            var nonChoix;
+
+            let typeChocolat = document.getElementsByName("radSorteChoco")
+            for (x = 0; x < typeChocolat.length; x++) {
+                if (typeChocolat[x].checked == true) {
+                    if(x == 0){
+                        nombreCal += 85;
+                    }
+                    else if(x == 1){
+                        nombreCal += 115;
+                    }
+                    else if(x == 2){
+                        nombreCal += 100;
+                    }
+                    else{
+                        nombreCal += 85;
+                    }
+                    nonChoix = false;
+                    break;
+                }
+                else{
+                    nonChoix = true;
+                }
+            }
+            if(nonChoix == true){
+                document.getElementById("nbrCalorie").textContent = "Vous devez d'abord préciser une sorte de chocolat!";
+                return;
+            }
+
+            let noix = document.getElementsByName("redPresenceNoix")
+            if (noix[0].checked == true) {
+                nombreCal += 40;
+            }
+            
+            document.getElementById("nbrCalorie").textContent = nombreCal;
+        }
+        function reinitialiser(){
+            let typeChocolat = document.getElementsByName("radSorteChoco")
+            typeChocolat[x].checked = false;
+
+
+
+            let noix = document.getElementsByName("redPresenceNoix")
+            if (noix[0].checked == true) {
+                noix[0].checked = false;
+                noix[1].checked = true;
+            }
+            
+            document.getElementById("nbrCalorie").textContent = "";
+        }
+    </script>
+</head>
+
+<body>
+    <form name="form">
+        <p style="margin: auto">
+
+            Choisissez le type de chocolat : <br><br>
+            <input type="radio" name="radSorteChoco" value="noir">Noir
+            <input type="radio" name="radSorteChoco" value="blanc">blanc
+            <input type="radio" name="radSorteChoco" value="lait">lait
+            <input type="radio" name="radSorteChoco" value="caramel">caramel<br><br>
+
+            Avec ou sans NOix ?<br><br>
+
+            <input type="radio" name="redPresenceNoix" value="blanc">AvecNoix
+            <input type="radio" name="redPresenceNoix" value="blanc" checked="true">Sans Noix<br><br>
+
+            <input type="button" name="btnCal" value="Calories?" onClick="affCalories()"><br><br>
+            <label id="nbrCalorie"></label><br><br>
+
+            <input type="button" name="btnCal" value="Réinitialiser?" onClick="reinitialiser()"><br><br>
+
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,181 @@
+/* section sur la section blog*/
+
+.blogFlexColumn{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 36px;
+  }
+  
+  .blogFlexRow{
+    display: -webkit-inline-box;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .blogBox{
+    max-width: 360px;
+    padding-left: 20px;
+    padding-right: 10px;
+  
+  }
+  
+  .slotImage{
+    height: 210px;
+    border-radius: 6px;
+  
+    overflow: hidden;
+  }
+  
+  .blogImage{
+    border-radius: 6px;
+  
+    transform-origin: 50% 50%;
+    transition: transform 0.1s ease-in-out;
+  
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .blogImage:hover{
+    opacity: 0.90;
+    transition: opacity 2s fade;
+  
+    transform: scale(1.05);
+    transition: transform 0.3s linear;
+  }
+  
+  .blogTitle{
+   padding-top: 16px;
+   font-size: 25px;
+   line-height: 1.45;
+   color: black;
+   font-weight: bold;
+  }
+  
+  .blogTitle:hover{
+    color: #4769d8 !important;
+    transition: color .2s;
+  }
+  
+  .blogReview{
+   color: #4769d8;
+   font-weight: 600;
+   font-size: 12px;
+   padding-top: 20px;
+   transition: color .2s;
+  }
+  
+  .blogReview:hover{
+    color: #062280;
+  }
+  
+  .authorDateBox{
+    padding-top: 18px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+  }
+  
+  .blogAuthor{
+    padding-right: 10px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .blogAuthor:hover{
+    color: #4769d8;
+     transition: color .2s;
+  }
+  
+  .blogDate{
+    color: grey;
+  
+  }
+  
+  .blogDate:hover{
+    color: #4769d8;
+     transition: color .2s;
+  }
+
+.blogBar{
+    list-style-type: none;
+    height: 121px;
+    width: 100%;
+    background-color: white;    
+    border-bottom: 1px solid #ecf1f7;
+}
+.blogBar2{
+    margin: auto;
+    width: 1140px;
+    padding-top: 61px;
+    text-align: center;
+}
+
+.blogBar2 p{
+    display: inline-flex;
+}
+
+.Blog{
+    float: left;
+    color: black;
+    margin-top: 12px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.typeBlog{
+    padding: 0px 15px;
+}
+
+.search{
+    float: right;
+}
+
+
+.blocDeBlog{
+    margin: auto;
+    max-width: calc(1140px + 40px);
+    padding-top: 95px;
+    padding-bottom: 110px;
+}
+
+.blogBox p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 19px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #697b96;
+}
+
+.page{
+    margin-top: 30px;
+    width: 1140px;
+    margin-left: 20px;
+}
+
+.page ul{
+    margin: 0;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.page li{
+    padding: 0px 5px;
+}
+.page a{
+    color: black;
+}
+.page a:hover{
+    color: #4769d8;
+    transition: color .2s;
+}
+
+.pageActive{
+    color: #4769d8;
+}
+.etc{
+    color: #55647b;
+}

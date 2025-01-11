@@ -1,0 +1,57 @@
+/*<!--de Ryck Hadrien-->
+<!--Louis Bertrand-->*/
+
+html{
+    height: 100%;
+    width: 100%;
+
+    margin: 0px;
+
+    background-color: black;
+
+    font-family: "kiwi_Maru";
+}*
+
+.angePleureur{
+    height: 88.7%;
+    width: 100%;
+
+    background-image: url("../image/angePleureur.jpg");
+    background-size: 100%;
+
+    position: absolute;
+}
+
+.normalLogin{
+    height: 88.7%;
+    width: 100%;
+
+    position: relative;
+}
+
+.divLogin{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.login{
+    padding: 75px;
+
+    display: table;
+    margin: auto;
+    background-color: white;
+
+    border-bottom-right-radius: 200px 300px;
+    border-top-left-radius: 200px 300px;
+
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.submit{
+    padding: 5px 20px;
+    border: 1px solid gray;
+}

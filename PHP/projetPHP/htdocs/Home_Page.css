@@ -1,0 +1,564 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #c2c6cb, #0079BF);
+    width: 100%;
+    height: 100%;
+    font-family:'Pacifico', cursive;
+  }
+
+/* Styles pour le formulaire d'inscription avec Bootstrap */
+.container {
+  border: 1px solid #060606;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20vh;
+  background-color: #f9f9f9;
+  width: fit-content;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(1, 2, 2, 2); /* Ombre légère */
+}
+
+h3, h2 {
+  text-align: center;
+  color: #0c0c0c;
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #0a0a0a;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #f1f1f1;
+}
+
+/* Style pour le bouton "S'inscrire" et "Se connecter" */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease; /* Ajout d'une transition de couleur */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Changement de couleur au survol */
+}
+
+a {
+  display: block;
+  margin-top: 20px; /* Ajout d'une marge supérieure */
+  text-align: center;
+  color: #060606; /* Couleur du lien */
+  text-decoration: none; /* Suppression du soulignement du lien */
+}
+
+a:hover {
+  color: #0056b3; /* Changement de couleur au survol du lien */
+}
+
+
+/*Main page*/
+#nav{
+  background: linear-gradient(to bottom, #6e98c3, #a0aab0);;
+    width: 99.8%;
+    padding: 2px;
+}
+#nav > h5{
+    text-align: center;
+    margin: 0px;
+
+}
+.main {
+    width: 100%;
+    height: 90%;
+}
+#main {
+    background-color: rgb(188, 186, 185);
+    padding: 10px 0px 10px 75px;
+    
+}
+.grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 10px; 
+    width: 100%;
+    height: 92.5%;
+}
+
+
+/* Styles pour la barre de recherche */
+input[type="text"] {
+  width: 200px; /* Ajuster la largeur de la barre de recherche */
+  padding: 8px;
+  border: 5px solid #b42727;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px; /* Ajouter une marge à droite pour séparer des autres éléments */
+}
+
+/* Style pour le bouton "Rechercher" */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style pour les options de sélection dans la barre de recherche */
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Ajouter une marge à droite pour séparer des autres éléments */
+}
+
+#tache {
+    background-color: #e2e2e2;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgb(6, 6, 6); /* Ombre légère */
+}
+#tache>p{
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+.tacheInd {
+  border-bottom: 2px solid #0d0d0d; /* Ajouter une bordure inférieure pour séparer les éléments */
+  padding-bottom: 10px; /* Ajouter un espacement en bas pour laisser de l'espace entre les éléments */
+}
+
+
+
+
+
+.notification {
+  display: none;
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px;
+  word-wrap: break-word; /* Permettre le redimensionnement automatique du contenu */
+  resize: auto;
+}
+
+
+.VoirPlusTache {
+    display: none;
+    size-adjust: 50%;
+    top: 50px;
+    right: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.show {
+    display:block;
+
+}
+
+.button-notification {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e57c20; /* Couleur de fond du bouton Notification */
+    color: #fff; /* Couleur du texte du bouton Notification */
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button-notification:hover {
+    background-color: #e57c20; /* Couleur de fond du bouton Notification au survol */
+  }
+  
+ 
+
+/* Styles pour les boutons */
+
+input[type="date"],
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #0b0b0b;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 50%;
+  box-sizing:border-box;
+}
+
+input[type="text"]::placeholder {
+  color: #030303; /* Couleur du texte de l'indicateur de placeholder */
+}
+
+input[type="date"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  border-color: #050505; /* Couleur de la bordure au focus */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Ombre de la boîte au focus */
+}
+
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Couleur de fond du bouton au survol */
+}
+
+
+form select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #080808;
+    margin-right: 5px;
+    background-color: #fff; /* Couleur de fond des options */
+    color: #000000; /* Couleur du texte des options */
+  }
+  
+  form select:hover {
+    background-color: #f9f9f9; /* Couleur de fond des options au survol */
+  }
+  
+  form select option {
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  form select option:hover {
+    background-color: #f2f2f2; /* Couleur de fond des options au survol */
+  }
+  
+
+.button-add {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    font-size: 16px;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button-add:hover {
+    background-color: #45a049; /* Couleur de fond du bouton au survol */
+  }
+  
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e00d0def; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #e00d0def; /* Couleur de fond du bouton au survol */
+  }
+  
+  
+  /*Ajout de taches*/
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  form#addForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  form#addForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form#addForm input[type="text"],
+  form#addForm select,
+  form#addForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form#addForm input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form#addForm input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  
+/* account*/
+
+.AccountForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #090909;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.AccountForm p {
+  margin-bottom: 15px;
+}
+
+.AccountForm input[type="text"],
+.AccountForm input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #060606;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.AccountForm button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.AccountForm .updateUser {
+  background-color: #4CAF50;
+}
+
+.AccountForm button[type="button"] {
+  background-color: #f80c0c;
+}
+
+
+
+/*update*/
+
+
+/* Styles pour le textarea "Description" */
+textarea#description {
+  width: 300px; /* Définir une largeur spécifique */
+  max-width: 100%; /* Empêcher le dépassement de la largeur du conteneur s'il est plus petit que 300px */
+  padding: 10px;
+  border: 2px solid #0b0b0b;
+  border-radius: 10px;
+  font-size: 15px;
+  resize: vertical; /* Permettre le redimensionnement vertical du textarea */
+}
+
+/* Styles pour le bouton "Modifier" */
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Couleur de fond du bouton au survol */
+}
+
+/* Styles pour les boutons */
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Style par défaut pour les boutons */
+button.default {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style pour le bouton "Voir Plus" */
+button.view-more {
+  background-color: #e57c20;
+  color: #fff;
+}
+
+/* Style pour le bouton "Modifier" */
+button.update {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+/* Style pour le bouton "Supprimer" */
+button.delete {
+  background-color: #e00d0d;
+  color: #fff;
+}
+
+/* Style pour le bouton "Follow" */
+button.follow {
+  background-color: #ffffff;
+  color: #040404;
+}
+
+/* Style pour le bouton "Unfollow" */
+button.following {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+button.edit-account-button {
+  background-color: #aeabab; /* Couleur de fond du bouton en gris pâle au survol */
+}
+
+/*logo compte*/
+/* Style pour le lien de compte */
+.link-account {
+  display: inline-block;
+  color: #080808; 
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.link-account:hover {
+  text-decoration: underline;
+}
+
+/* Style pour le logo de compte */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Ajuster la largeur du logo */
+  height: 100px; /* Ajuster la hauteur du logo si nécessaire */
+}
+
+.logo-container img {
+  width: 100%; /* Ajuster la largeur du logo pour remplir le conteneur */
+  height: 100%; /* Ajuster la hauteur du logo pour remplir le conteneur */
+  border-radius: 500%;
+}
+
+.notification {
+  display: none;
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.VoirPlusTache {
+  display: none;
+  position: fixed;
+  size-adjust: 50%;
+  top: 50px;
+  right: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px;
+  vertical-align: top;
+  margin: 20px 20px;
+  width: calc(90% - 110px);
+  height: auto;
+  font-size: 18px;
+}
+
+.show {
+  display: block;
+}
+
+.comments {
+  display: none;
+}
+
+.fil{
+  border-bottom: 2px solid #0d0d0d;
+  padding-bottom: 10px;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  background-color: white;
+  padding: 20px;
+}
+
+.content {
+  /* Add any styles you need for the content */
+  flex-grow: 1;
+  padding: 20px;
+}
